@@ -1,0 +1,1177 @@
+{
+	"language_code"						: "en-US",
+	"direction"							: "ltr",
+
+	"global": {
+		"submit_button"					: "Enviar",
+		"delete"						: "Eliminar",
+		"edit"							: "Editar",
+		"view"							: "Ver",
+		"enable"						: "Habilitar",
+		"disable"						: "Inhabilitar",
+		"show_more"						: "Mostrar más",
+		"language"						: "Idioma",
+		"choose_language"				: "Escoger idiona",
+		"close"							: "Cerrar",
+		"online"						: "En linea",
+		"search"						: "Buscar",
+		"directory_search"				: "Directorio",
+		"search_view_all"				: "Ver todos los resultados",
+		"go_back_button"				: "Regresar",
+		"verified"						: "Usuario verificado",
+		"date_range_selector"			: "Seleccionar rango",
+		"yes"							: "Si",
+		"no"							: "No",
+		"export_csv"					: "Exportar a csv",
+
+		"message_type": {
+			"error"						: "Error!",
+			"info"						: "Infomación!",
+			"success"					: "Éxito!"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "¿Estás seguro de que quieres eliminar esto?",
+			"premium_access"			: "Lo sentimos, pero solo puede acceder a esas funciones si tiene una cuenta premium."
+		},
+
+		"success_message": {
+			"basic"						: "¡Su comando solicitado se realizó con éxito!",
+			"account_activated"			: "Su cuenta fue activada! ¡Bienvenido!"
+		},
+
+		"error_message": {
+			"directory_not_writeable"	: "El directorio no se puede escribir <strong>%s</strong>",
+			"empty_fields"				: "¡Debes completar todos los campos!",
+			"invalid_captcha"			: "¡El código captcha no es válido!",
+			"invalid_file_type"			: "¡Tipo de archivo invalido!",
+			"invalid_image_size"		: "Su imagen cargada excede el límite de tamaño ( %s )!",
+			"invalid_token"				: "No se pudo finalizar la acción porque el protector ha caducado, ¡inténtalo de nuevo!",
+			"command_denied"			: "¡No tienes acceso a este comando!",
+			"page_access_denied"		: "¡No puedes acceder a esta página!",
+			"invalid_account"			: "¡Este usuario no existe!",
+			"basic"						: "¡No pudimos ejecutar el comando solicitado!",
+			"system_issues"				: "Hay algunos problemas del sistema en este momento, comuníquese con un administrador y cuéntele sobre este problema."
+		},
+
+		"menu": {
+			"home"						: "Inicio",
+			"logout"					: "Cerrar sesión",
+			"settings"					: "Ajustes",
+			"admin"						: "Admin",
+			"website"					: "Visitar sitio",
+			"search_title"				: "Pruébalo ahora mismo.",
+			"search_title2"				: "Verifica otra cuenta",
+			"instagram"					: "Instagram",
+			"admin_settings"			: "Ajustes",
+			"search_placeholder" 		: "Ingrese el nombre de usuario de instagram o el enlace de perfil."
+		},
+
+		"date": {
+			"datetime_format"			: "Y-m-d",
+			"SET_THIS_AT_YOUR_OWN_RESPONSIBILITY": "Asegúrese de agregar solo formatos válidos de fecha y hora.",
+
+			"x_days"					: "%s días",
+			"x_months"					: "%s meses",
+			"year"						: "1 año",
+			"x_years"					: "%s años",
+			"year_and_half"				: "1 año y medio",
+
+			"daily"						: "Diario",
+			"weekly"					: "Semanal",
+			"monthly"					: "Mensual",
+
+			"short_day_of_week": {
+				"1"						: "Lun",
+				"2"						: "Mar",
+				"3"						: "Mie",
+				"4"						: "Jue",
+				"5"						: "Vie",
+				"6"						: "Sab",
+				"7"						: "Dom"
+			}
+		},
+
+		"number": {
+			"decimal_point"				: ".",
+			"thousands_separator"		: ","
+		},
+
+		"accessibility": {
+			"toggle_navigation"			: "Navigation Toggle",
+			"logo_alt"					: "Logo del sitio web",
+			"captcha_image_alt"			: "Captcha",
+			"captcha_input"				: "Campo Captcha"
+		},
+
+		"email": {
+			"admin_new_user_email_notification_subject"		: "¡Nuevo usuario registrado!",
+			"admin_new_user_email_notification_body"		: "¡Hola!<br /><br />¡Un nuevo usuario recién registrado en el sitio web!<br /><br />Bienvenido <strong>%s</strong> con el nombre de usuario <strong>%s</strong> para ¡su página web!",
+			"admin_new_payment_email_notification_subject"	: "Nuevo pago a través %s de %s %s!",
+			"admin_new_payment_email_notification_body"		: "¡Hola!<br /><br />¡Un usuario acaba de pagar <strong>%s %s</strong> al sitio web!<br /><br />¡Aquí hay más ganancias!!"
+		},
+
+		"footer": {
+			"facebook"					: "Facebook",
+			"twitter"					: "Twitter",
+			"instagram"					: "Instagram",
+			"youtube"					: "YouTube"
+		}
+	},
+
+	"page": {
+		"display": {
+			"edit"						: "Editar página"
+		},
+
+		"info_message": {
+			"invalid_page"				: "¡La página que estás buscando no existe!"
+		}
+	},
+
+	"favorites": {
+		"title"							: "Tus favoritos",
+		"header"						: "Favoritos",
+		"menu"							: "Favoritos",
+		"source_header"					: "Tus cuentas %s favoritas",
+
+		"no_favorites": {
+			"message"					: "No tienes favoritos, ¿quizás quieras seguir a tus competidores?",
+			"button"					: "Comience a rastrear"
+		}
+	},
+
+	"compare": {
+		"title"							: "Comparar usuarios",
+		"title_dynamic"					: "Comparar %s con %s Instagram",
+		"header"						: "Compara cuentas de Instagram",
+		"header_help"					: "Aquí puede ingresar dos cuentas de instagram a las que tiene acceso y puede comparar y analizar sus estadísticas una al lado de la otra.",
+
+		"display": {
+			"compare_text"				: "vs",
+			"search_input_placeholder"	: "Nombre de usuario de Instagram",
+			"statistics"				: "Comparación de estadísticas",
+			"view_report"				: "Vista del informe",
+			"top_posts"					: "Publicaciones principales",
+			"top_posts_help"			: "Publicaciones principales de las últimas %s publicaciones de ambas cuentas.",
+			"engagement_rate"			: "Tasa de interacción",
+			"engagement_rate_help"		: "La tasa de interacción es la cantidad de me gusta / comentarios activos en cada publicación",
+			"average_likes"				: "Me gusta promedio",
+			"average_likes_help"		: "Promedio de Me gusta basado en las últimas %s publicaciones",
+			"average_comments"			: "Comentarios promedio",
+			"average_comments_help"		: "Promedio de Comentarios basados en las últimas %s publicaciones",
+
+			"average_engagement_rate_chart" : "Tabla de tasa de interacción promedio",
+			"followers_chart"			: "Gráfico de seguidores"
+		},
+
+		"info_message": {
+			"private_account"			: "Esta es una cuenta privada, no se pueden mostrar estos datos.",
+			"user_not_found"			: "Parece que <strong>%s</strong> aún no existe en nuestra base de datos, ¿le gustaría agregar <strong>%s</strong> a nuestra base de datos?"
+		},
+
+		"error_message": {
+			"embed"						: "No pudimos recuperar la publicación de inserción.",
+			"no_access"					: "No tiene acceso a estas estadísticas a menos que inicie sesión.",
+			"no_access_purchase"		: "Debe tener al menos un Informe comprado de cualquiera de las cuentas que desea verificar."
+		}
+	},
+
+	"report": {
+		"display": {
+			"comparison"				: "%s%s en comparación con el último cheque.",
+
+			"add_favorite"				: "<span data-toggle=\"tooltip\" title=\"Agregar a los favoritos\"><i class=\"far fa-fw fa-heart\"></i></span>",
+			"remove_favorite"			: "<span data-toggle=\"tooltip\" title=\"Quitar de los favoritos\"><i class=\"fa fa-fw fa-heart text-danger\"></i></span>",
+
+			"actions"					: "Acciones",
+			"compare"					: "Comparar",
+			"pdf_link"					: "Exportar PDF",
+			"api_link"					: "Enlace API",
+
+			"statistics_summary"        : "Resumen estadístico",
+			"summary"					: "Resumen de estadísticas de cuenta",
+			"summary_help"				: "Mostrando las últimas 15 entradas.",
+			"total_summary"				: "<i class=\"fa fa-fw fa-list-ol\"></i> Resumen total",
+
+			"projections"				: "Proyecciones Futuras",
+			"no_projections"			: "No hay suficientes datos para generar proyecciones futuras, por favor regrese mañana.",
+			"projections_help"			: "Aquí puede ver las proyecciones futuras aproximadas basadas en los promedios de sus días anteriores",
+			"time_until"				: "Tiempo hasta",
+			"time_until_now"			: "Estadísticas actuales",
+			"average_calculations"		: "<i class=\"fa fa-fw fa-calculator\"></i> Basado en un promedio de",
+
+			"private_account"			: "Esta es una cuenta privada",
+			"private_account_help"		: "No podemos obtener detalles detallados para cuentas privadas, asegúrese de que su cuenta sea pública antes de verificar el informe completo.",
+			"unlock"					: "<i class=\"fa fa-fw fa-unlock\"></i> Desbloquear informe",
+			"unlock_helper"				: "Obtenga acceso a toda la información disponible para <strong>%s</strong>",
+			"unlock_helper2"			: "Desbloquee el informe por solo <strong>%s</strong> punto(s). ( 1 Point = 1 %s )",
+			"unlock_helper3"			: "El informe estará disponible durante <strong>%s</strong> días después de la compra.",
+
+			"last_successful_check_date": "Última fecha de verificación exitosa: %s",
+			"last_check_date"			: "Última fecha de verificación: %s",
+			"time_zone"					: "Zona horaria: %s",
+			"date"						: "Fecha",
+			"date_help"					: "Formato: %s"
+		},
+
+		"state": {
+			"not_checked_full_name"		: "Este informe aún no se generó",
+			"not_checked_description"	: "Este informe aún no se generó, haga clic en el informe para calcularlo"
+		},
+
+		"button": {
+			"login"						: "Iniciar sesión",
+			"register"					: "Registrarse",
+			"purchase"					: "Desbloquear informe",
+			"refresh"					: "Hice público mi perfil",
+			"date"						: "Seleccionar rango"
+		},
+
+		"info_message": {
+			"recently_generated"		: "Este informe fue generado recientemente por el sistema y los datos del historial son mínimos en este momento."
+		},
+
+		"error_message": {
+			"low_followers"				: "Lo sentimos, pero solo agregamos cuentas a nuestra base de datos con %s o más seguidores."
+		},
+
+		"statistics_compare": {
+			"title"						: "Tasas de participación en Instagram",
+			"subtitle"					: "Estas son las tasas de participación general / promedio que se encuentran en Instagram. Estadísticas basadas en el análisis de más de 1 millón de perfiles de influencia."
+		}
+	},
+
+
+	"account_settings": {
+		"title"							: "Configuraciones de la cuenta",
+		"menu"							: "Configuraciones de la cuenta",
+		"header"						: "Configuraciones de la cuenta",
+		"header2"						: "Cambia la contraseña",
+		"header2_help"					: "Si no desea cambiar su contraseña, no complete ninguno de los campos a continuación.",
+		"header3"						: "Borrar cuenta",
+		"header3_help"					: "Al eliminar la cuenta, se eliminarán todos sus datos almacenados. Esta acción es irreversible una vez realizada.",
+
+		"display": {
+			"last_activity"				: "Último activo: "
+		},
+
+		"input": {
+			"current_password"			: "Contraseña actual",
+			"new_password"				: "Nueva contraseña",
+			"repeat_password"			: "Repite la contraseña",
+			"email"						: "Correo electrónico",
+			"username"					: "Nombre de usuario",
+			"name"						: "Nombre",
+			"email_reports"				: "Habilitar informes de correo electrónico",
+			"email_reports_help"		: "El sistema le enviará actualizaciones <strong>%s</strong> sobre sus cuentas rastreadas"
+		},
+
+		"error_message": {
+			"invalid_current_password"	: "¡Tu contraseña actual no es válida!",
+			"short_password"			: "Su contraseña es demasiado corta, ¡debe tener al menos 6 caracteres!",
+			"passwords_not_matching"	: "Sus contraseñas ingresadas no coinciden",
+			"username_length"			: "¡El nombre de usuario debe tener entre 3 y 32 caracteres!",
+			"user_exists"				: "Lo sentimos, pero el nombre de usuario <strong>%s</strong> ya está en uso."
+		},
+
+		"success_message": {
+			"account_updated"			: "Su cuenta fue actualizada!"
+		}
+	},
+
+
+	"reset_password": {
+		"title"							: "Restablecer la contraseña",
+		"header"						: "Restablecer la contraseña",
+
+		"input": {
+			"new_password"				: "Nueva contraseña",
+			"repeat_password"			: "Repite la contraseña"
+		},
+
+		"error_message": {
+			"short_password"			: "Su contraseña es demasiado corta, ¡debe tener al menos 6 caracteres!",
+			"passwords_not_matching"	: "Sus contraseñas ingresadas no coinciden"
+		},
+
+		"success_message": {
+			"password_updated"			: "Su contraseña ha sido actualizada!"
+		}
+	},
+
+
+	"login": {
+		"menu"							: "Iniciar sesión",
+		"title"							: "Iniciar sesión",
+		"header"						: "Iniciar sesión",
+
+		"input": {
+			"username" 					: "Nombre de usuario o dirección de correo electrónico",
+			"password"					: "Contraseña",
+			"remember_me"				: "Recuérdame"
+		},
+
+		"button": {
+			"login"						: "Iniciar sesión",
+			"lost_password"				: "Contraseña perdida",
+			"resend_activation"			: "Reenviar activación",
+			"facebook"					: "%s Iniciar sesión",
+			"instagram"					: "%s Iniciar sesión "
+		},
+
+		"info_message": {
+			"logged_in"					: "Bienvenido de nuevo, ¡ahora estás conectado!"
+		},
+
+		"error_message": {
+			"wrong_login_credentials"	: "¡Su combinación de nombre de usuario y contraseña no es válida!",
+			"user_not_active"			: "¡Su cuenta no está confirmada ni prohibida!"
+
+		}
+	},
+
+
+	"lost_password": {
+		"title"							: "Contraseña perdida",
+		"header"						: "Contraseña perdida",
+
+		"input": {
+			"email" 					: "Correo electrónico"
+		},
+
+		"notice_message": {
+			"success"					: "¡Enviamos un correo electrónico a esa dirección de cuentas si hay una cuenta registrada con ella!"
+		}
+	},
+
+	"resend_activation": {
+		"title"							: "Reenviar activación",
+		"header"						: "Reenviar correo electrónico de activación",
+
+		"input": {
+			"email" 					: "Correo electrónico"
+		},
+
+		"notice_message": {
+			"success"					: "¡Enviamos un correo electrónico a esa dirección de cuentas si hay una cuenta registrada con ella!"
+		}
+	},
+
+
+	"register": {
+		"title"							: "Registrarse",
+		"menu"							: "Registrarse",
+		"header"						: "Registrarse",
+		"subheader"						: "¿Ya tienes una cuenta?",
+
+		"input": {
+			"username" 					: "Nombre de usuario",
+			"name"						: "Nombre",
+			"email"						: "Correo electrónico",
+			"password"					: "Contraseña",
+			"repeat_password"			: "Repetir contraseña"
+		},
+
+		"error_message": {
+			"username_length"			: "¡El nombre de usuario debe tener entre 3 y 32 caracteres!",
+			"name_length"				: "¡El nombre debe tener entre 3 y 32 caracteres!",
+			"user_exists"				: "Lo sentimos, pero el nombre de usuario <strong>%s</strong> ya está en uso.",
+			"email_exists"				: "Lo sentimos, ¡pero ese correo electrónico ya está en uso!",
+			"invalid_email"				: "¡Ingresaste un correo electrónico no válido!",
+			"short_password"			: "Su contraseña es demasiado corta, ¡debe tener al menos 6 caracteres!",
+			"passwords_not_matching"	: "Sus contraseñas ingresadas no coinciden",
+			"username_characters"		: "Solo puede usar letras, dígitos y los caracteres '.', '_' Para su campo de nombre de usuario",
+			"email_is_null"				: "Su cuenta de Facebook no tiene un correo electrónico asociado, no pudimos finalizar el proceso de inicio de sesión de Facebook."
+		},
+
+
+		"success_message": {
+			"registration"				: "Su cuenta ha sido creada, revise su correo electrónico para ver el enlace de activación.",
+			"login"						: "Bienvenido a nuestra plataforma, ¡estamos agradecidos de tenerte aquí!"
+		}
+	},
+
+
+	"dashboard": {
+		"title"							: "Dashboard",
+		"menu"							: "Dashboard",
+
+		"display": {
+			"header"					: "Bienvenido a %s!",
+			"text"						: "Este texto es editable desde el archivo de idioma :)",
+			"store"						: "Saldo de cuenta de %s puntos totales",
+			"joined"					: "Unido %s",
+			"favorites"					: "Total de favoritos %s",
+			"reports"					: "Total de informes desbloqueados %s"
+		},
+		"sidebar": {
+			"premium"					: "Premium",
+			"header"					: "¡Hola!, %s 🔥",
+			"text"						: "Aquí hay algunos enlaces útiles a continuación <i class=\"fa fa-fw fa-arrow-down\"></i>"
+		}
+
+	},
+
+	"my_reports": {
+		"title"							: "Mis informes",
+		"menu"							: "Mis informes",
+		"header"						: "Mis informes",
+		"subheader"						: "Lista con todos los informes %s que has desbloqueado actualmente.",
+
+		"table": {
+			"username"					: "Nombre de usuario",
+			"expiration_date"			: "Vencimiento",
+			"no_expiration_date"		: "No caduca",
+			"nr"						: "#"
+		},
+
+		"no_unlocked_reports": {
+			"message"					: "Actualmente no tiene ningún informe desbloqueado.",
+			"button"					: "Empieza a analizar"
+		}
+
+	},
+
+	"api_documentation": {
+		"title"							: "Documentación API",
+		"menu"							: "Documentación API",
+		"header"						: "Documentación API",
+		"subheader"						: "Aquí puede encontrar cómo puede usar la API para sus informes desbloqueados.",
+
+		"display": {
+			"api_link"					: "Enlace API para %s",
+			"text1"						: "La API se utiliza para obtener información actual de un informe generado que está disponible para su cuenta.",
+			"api_key"					: "Clave API",
+			"api_url"					: "URL de API",
+			"format"					: "Formato de URL",
+			"method"					: "Método",
+			"url_params"				: "Parámetros de consulta de URL",
+			"url_params_help"			: "Debe especificar todos estos parámetros para obtener una respuesta válida.",
+			"required"					: "Requerido",
+			"source_help"				: "El parámetro fuente acepta el nombre de la fuente de detalles. (ej: instagram)",
+			"success_response"			: "Respuesta exitosa",
+			"success_response_help"		: "Así es como debería verse una respuesta de solicitud de muestra.",
+			"failed_response"			: "Respuesta fallida",
+			"failed_response_help"		: "Así es como se verá una respuesta de solicitud fallida.",
+			"php_example"				: "Ejemplo simple de PHP",
+			"php_example_help"			: "Un ejemplo súper fácil sobre cómo puedes implementar esto con PHP."
+		},
+
+		"table": {
+			"username"					: "Nombre de usuario",
+			"date"						: "Fecha",
+			"expiration_date"			: "Fecha de caducidad",
+			"no_expiration_date"		: "N/A",
+			"nr"						: "#"
+		},
+
+		"info_message": {
+			"no_unlocked_reports"			: "Actualmente no tiene ningún informe desbloqueado."
+		}
+
+	},
+
+	"store": {
+		"title"								: "Tienda",
+		"menu"								: "Tienda",
+		"header"							: "Tienda",
+		"header_transactions"				: "Actas",
+		"confirm_purchase"					: "¿Estás seguro de que quieres comprar este paquete?",
+		"confirm_unlock_report"				: "¿Estás seguro de que quieres desbloquear este informe?",
+
+		"display": {
+			"state"							: "<strong>Saldo de la cuenta:</strong> %s Puntos.",
+			"add_funds"						: "Recarga puntos a treves de %s",
+			"purchase"						: "Comprar ahora",
+			"info"							: "1 punto es igual a 1 unidad de la moneda del sitio web ( %s )."
+		},
+
+
+		"no_ads": {
+			"title"							: "Sin anuncios",
+			"description"					: "Con el paquete Sin anuncios no obtendrá ningún anuncio en el sitio web y mostrará su apoyo al equipo por <strong>%s Puntos </strong>"
+		},
+
+		"table": {
+			"type"							: "",
+			"email"							: "Correo electrónico",
+			"date"							: "Fecha",
+			"name"							: "Nombre completo",
+			"amount"						: "Cantidad",
+			"currency"						: "",
+			"nr"							: "#"
+		},
+
+		"info_message": {
+			"stripe_not_available"			: "Lo sentimos, pero los pagos de Stripe están deshabilitados en este momento.",
+			"paypal_not_available"			: "Lo sentimos, pero los pagos de PayPal están deshabilitados en este momento.",
+			"canceled"						: "Parece que ha cancelado su pedido, no pudimos procesar su pago.",
+			"no_transactions"				: "Por el momento no hay transacciones para mostrar."
+		},
+
+		"button": {
+			"pay"							: "Pagar"
+		},
+
+		"paypal": {
+			"title"							: "PayPal",
+			"header"						: "Pagar con PayPal",
+			"amount"						: "Selecciona una cantidad de puntos"
+		},
+
+		"stripe": {
+			"title"							: "Stripe",
+			"header"						: "Pagar con Stripe",
+			"amount"						: "Selecciona una cantidad de puntos",
+			"description"					: "Puntos por la cuenta"
+		},
+
+		"error_message": {
+			"already_no_ads"				: "Parece que su cuenta ya compró el paquete sin anuncios, no puede volver a comprar este paquete.",
+			"instagram_user_not_found"		: "Usuario de Instagram no encontrado ...",
+			"normal"						: "Algo sucedió mientras intentamos procesar su pago.",
+			"not_enough_funds"				: "¡No tienes suficientes fondos! Agregue más fondos a su cuenta y regrese :)",
+			"allowed_packages"				: "Intente comprar un paquete que se enumera a continuación."
+		},
+
+		"success_message": {
+			"paid"							: "¡Acaba de recibir nuevos fondos en su cuenta!",
+			"purchased"						: "¡Acabas de comprar el paquete!",
+			"report_unlocked"				: "El desbloqueo fue exitoso, ¡disfruta de las estadísticas!"
+		}
+	},
+
+
+	"index": {
+		"title"							: "Inicio",
+		"header"						: "",
+		"subheader"						: "Analiza y rastrea tus cuentas de redes sociales",
+
+		"reports": {
+			"header"					: "Reportes de ejemplo",
+			"subheader"					: "Vea algunos de nuestros informes analíticos de demostración."
+		},
+
+		"presentation": {
+			"header"					: "Tu herramienta de análisis de redes sociales",
+			"subheader"					: "Realice un seguimiento de la evolución de sus cuentas de redes sociales con hermosas estadísticas y gráficos.",
+
+			"one": {
+				"header"				: "Estadísticas de crecimiento",
+				"subheader"				: "Realice un seguimiento del progreso de cualquier cuenta de Instagram con análisis diarios de seguidores, seguidores, cargas, tasa de interacción y mucho más."
+			},
+
+			"two": {
+				"header"				: "Pasado, presente, futuro",
+				"subheader"				: "Le damos acceso a todos los análisis diarios y generamos estadísticas precisas y gratuitas de cualquier cuenta que tengamos en nuestra base de datos."
+			},
+
+			"three": {
+				"header"				: "%s Informes por correo electrónico",
+				"subheader"				: "Incluso le enviamos notificaciones por correo electrónico sobre el progreso de sus cuentas de redes sociales rastreadas."
+			}
+		},
+
+		"box": {
+			"pdf_exports"				: "EXPORTACIONES PDF",
+			"pdf_exports_text"			: "Exportaciones en PDF fáciles de usar y siempre listas del informe generado.",
+
+			"future_projections"		: "PROYECCIONES FUTURAS",
+			"future_projections_text"	: "Basado en estadísticas generadas por el crecimiento de las cuentas.",
+
+			"comparison_tool"			: "HERRAMIENTA DE COMPARACIÓN",
+			"comparison_tool_text"		: "Compare sus estadísticas con sus competidores y vea quién gana."
+		}
+
+	},
+
+	"directory": {
+		"title"							: "Directorio - Buscar influenciadores",
+		"header"						: "Directorio - Buscar influenciadores",
+		"subheader"						: "Encuentre varias cuentas de Instagram con diferentes criterios, ¡lo tenemos cubierto!",
+		"menu"							: "Directorio",
+
+		"display": {
+			"order_by"					: "Ordenar por",
+			"order_by_help"				: "Ordene sus resultados",
+			"order_by_filter"			: "Ordenar por",
+			"order_by_type"				: "Ordenar por tipo",
+			"ascending"					: "Ascendente",
+			"descending"				: "Descendente",
+
+			"bio"						: "Bio",
+			"bio_help"					: "Buscar palabras en descripciones",
+			"followers"					: "Seguidores",
+			"followers_help"			: "Filtrar por rango",
+			"engagement"				: "Interacción",
+			"engagement_help"			: "Filtrar por rango",
+
+			"from"						: "Desde",
+			"to"						: "A",
+
+			"followers_from"			: "Seguidores de",
+			"followers_to"				: "Seguidores a",
+			"engagement_from"			: "Interacción de",
+			"engagement_to"				: "Interacción a"
+
+		},
+
+		"input": {
+			"bio_filter"				: "Palabra clave.."
+		},
+
+		"info_message": {
+			"no_results_title"			: "No hay resultados..",
+			"no_results"				: "en este momento en el tiempo..",
+			"logged_in"					: "¡Tienes que iniciar sesión para usar la página del directorio!"
+		}
+
+	},
+
+	"admin_pages_management": {
+		"title"							: "Gestión de páginas",
+		"menu"							: "Páginas",
+		"header"						: "Agragar página",
+
+		"table": {
+			"title"						: "Nombre",
+			"url"						: "Url",
+			"position"					: "Posición",
+			"position_top"				: "Menu principal",
+			"position_bottom"			: "Menú inferior",
+			"actions"					: "Acciones"
+		},
+
+		"input": {
+			"title"						: "Título de la página",
+			"url"						: "URL / Slug",
+			"url_help"					: "Si ingresa una URL completa (por ejemplo: https://google.com/), apuntará directamente a esa página en lugar de generar una página interna.",
+			"description"				: "Descripción",
+			"position"					: "Posición",
+			"position_top"				: "Menu principal",
+			"position_bottom"			: "Pie de página"
+		}
+	},
+
+	"admin_proxies_management": {
+		"title"							: "Gestión de proxies",
+		"menu"							: "Proxies",
+		"header"						: "Agregar proxy",
+
+		"table": {
+			"address"					: "Dirección",
+			"total_successful_requests"	: "Total de solicitudes exitosas",
+			"total_failed_requests"		: "Total de solicitudes fallidas",
+			"note"						: "Nota",
+			"actions"					: "Acciones"
+		},
+
+		"input": {
+			"help"						: "Puede habilitar / deshabilitar el Sistema Proxy haciendo clic en<a href=\"admin/website-settings\">Configuraciones del sitio web</a>",
+			"address"					: "Dirección IP",
+			"port"						: "Puerto",
+			"auth_help"					: "Deje en blanco los campos Nombre de usuario y Contraseña si el proxy no tiene autenticación",
+			"username"					: "Nombre de usuario",
+			"password"					: "Contraseña",
+			"note"						: "Nota",
+			"note_help"					: "Pequeña nota sobre el proxy, por ejemplo: un nombre, un identificador para usted",
+			"method"					: "Método",
+			"method_help"				: "Método de conexión al proxy."
+		},
+
+		"button": {
+			"test"						: "Proxy de prueba",
+			"submit"					: "Enviar y probar"
+		},
+
+		"success_message": {
+			"test"						: "¡La solicitud de prueba fue exitosa!"
+		}
+	},
+
+	"admin_payments_list": {
+		"title"							: "Lista de pagos",
+		"menu"							: "Pagos",
+
+		"table": {
+			"type"						: "Tipo",
+			"email"						: "Correo electrónico",
+			"username"					: "Nombre de usuario",
+			"date"						: "Fecha",
+			"name"						: "Nombre completo",
+			"amount"					: "Cantidad",
+			"currency"					: ""
+		},
+
+		"display": {
+			"search_placeholder"		: "Buscar por nombre de usuario, nombre o correo electrónico."
+		}
+	},
+
+
+	"admin_index": {
+		"title"							: "Panel de administración",
+		"menu"							: "Dashboard",
+		"header"						: "Dashboard",
+
+		"display": {
+			"unlocked_reports_month"	: "Informes desbloqueados este mes",
+			"unlocked_reports"			: "Total de informes desbloqueados",
+			"transactions_month"		: "Transacciones este mes",
+			"transactions"				: "Transacciones totales",
+			"earnings_month"			: "Ganancias este mes",
+			"earnings"					: "Ganancias Totales",
+			"active_users_month"		: "Usuarios activos este mes",
+			"active_users"				: "Total de usuarios",
+			"latest_users"				: "Últimas cuentas",
+			"latest_payments"			: "Últimos pagos"
+		},
+
+		"table": {
+			"username"					: "Nombre de usuario",
+			"name"						: "Nombre",
+			"email"						: "Correo electrónico",
+			"type"						: "Tipo",
+			"date"						: "Fecha",
+			"actions"					: "Acciones"
+		}
+	},
+
+
+	"admin_users_management": {
+		"title"							: "Gestión de usuarios",
+		"menu"							: "Usuarios",
+
+		"table": {
+			"username"					: "Nombre de usuario",
+			"name"						: "Nombre",
+			"email"						: "Correo electrónico",
+			"active"					: "Estado",
+			"registration_date"			: "Fecha de registro",
+			"actions"					: "Acciones"
+		},
+
+		"tooltip": {
+			"admin"						: "Admin",
+			"owner"						: "Propietario"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Al eliminar este usuario, ¡todo lo que esté vinculado a ese usuario se eliminará!"
+		},
+
+		"error_message": {
+			"self_delete"				: "¡No puedes borrarte a ti mismo!",
+			"self_status"				: "¡No puedes cambiar tu propio estado!"
+		},
+
+		"display": {
+			"search_placeholder"		: "Buscar por nombre de usuario, nombre o correo electrónico.",
+			"user_active"				: "Activo",
+			"user_disabled"				: "Deshabilitado"
+		}
+	},
+
+	"admin_instagram_users_import": {
+		"title"							: "Importador de usuarios de Instagram",
+		"header"						: "Importador de usuarios de Instagram",
+		"header_help"					: "Con la función de importación, puede agregar usuarios masivos de instagram a la base de datos para que el sistema comience a rastrearlos.",
+
+		"input": {
+			"content"					: "Usuarios de Instagram",
+			"content_help"				: "El campo acepta: <strong>un nombre de usuario de instagram por línea</strong> o <strong>cuentas de instagram separadas por comas</strong>."
+		},
+
+		"success_message": {
+			"imported"					: "%s las cuentas han sido importadas a la base de datos"
+		},
+
+		"info_message": {
+			"duplicates"				: "%s las cuentas no se han importado a la base de datos porque son duplicados"
+		}
+
+	},
+
+	"admin_page_edit": {
+		"title"							: "Editar página",
+		"header"						: "Editar página",
+
+		"input": {
+			"title"						: "Título de la página",
+			"url"						: "URL / Slug",
+			"description"				: "Descripción",
+			"position"					: "Posición",
+			"position_top"				: "Menu principal",
+			"position_bottom"			: "Pie de página"
+		},
+
+		"error_message": {
+			"invalid_page"				: "¡Esa página no fue encontrada!"
+		}
+	},
+
+	"admin_proxy_edit": {
+		"title"							: "Editar proxy",
+		"header"						: "Editar proxy",
+
+		"input": {
+			"address"					: "Dirección IP",
+			"port"						: "Puerto",
+			"auth_help"					: "Deje en blanco los campos Nombre de usuario y Contraseña si el proxy no tiene autenticación",
+			"username"					: "Nombre de usuario",
+			"password"					: "Contraseña",
+			"note"						: "Nota",
+			"note_help"					: "Pequeña nota sobre el proxy, por ejemplo: un nombre, un identificador para usted",
+			"method"					: "Método",
+			"method_help"				: "Método de conexión al proxy.",
+			"successful_requests"		: "Solicitudes exitosas",
+			"failed_requests"			: "Solicitudes fallidas",
+			"total_successful_requests"	: "Total de solicitudes exitosas",
+			"total_failed_requests"		: "Total de solicitudes fallidas",
+			"date"						: "Fecha agregada",
+			"last_date"					: "Fecha de última solicitud"
+		},
+
+		"button": {
+			"submit"					: "Enviar y probar"
+		},
+
+		"error_message": {
+			"invalid_page"				: "¡Ese proxy no fue encontrado!"
+		}
+	},
+
+
+	"admin_user_edit": {
+		"title"							: "Editar usuario",
+		"header"						: "Editar usuario",
+		"header_password"				: "Cambia la contraseña",
+		"subheader_password"			: "¡Déjelo en blanco si no desea cambiar la contraseña!",
+		"header_transactions"			: "Actas",
+
+		"input": {
+			"points"					: "Puntos actuales",
+			"username"					: "Nombre de usuario",
+			"name"						: "Nombre",
+			"email"						: "Corre electrónico",
+			"status"					: "estado de la cuenta",
+			"status_active"				: "Activo",
+			"status_disabled"			: "Deshabilitado",
+			"type"						: "Privilegios de usuario",
+			"type_help"					: "Los usuarios administradores tendrán los mismos privilegios que usted, ¡tenga cuidado!",
+			"type_admin"				: "Admin",
+			"type_user"					: "Usuario",
+			"new_password"				: "Nueva contraseña",
+			"repeat_password"			: "Repite la contraseña",
+			"no_ads"					: "Sin anuncios",
+			"no_ads_help"				: "Esto habilita manualmente el paquete Sin anuncios",
+			"last_activity"				: "Último activo"
+		},
+
+		"error_message": {
+			"name_length"				: "¡El nombre debe tener entre 3 y 32 caracteres!",
+			"invalid_account"			: "¡Esa cuenta no fue encontrada!",
+			"email_exists"				: "Lo sentimos, ¡pero ese correo electrónico ya está en uso!",
+			"invalid_email"				: "¡Ingresaste un correo electrónico no válido!",
+			"short_password"			: "Su contraseña es demasiado corta, ¡debe tener al menos 6 caracteres!",
+			"passwords_not_matching"	: "Sus contraseñas ingresadas no coinciden"
+		}
+	},
+
+	"admin_user_view": {
+		"title"							: "Ver usuario",
+		"header"						: "Ver usuario",
+		"header_reports"				: "Informes desbloqueados",
+		"subheader_reports"				: "Informes actualmente activos y desbloqueados por este usuario.",
+		"header_favorites"				: "Cuentas favoritas",
+		"subheader_favorites"			: "Cuentas que este usuario ha favorecido.",
+		"header_transactions"			: "Actas",
+
+		"input": {
+			"points"					: "Puntos actuales",
+			"username"					: "Nombre de usuario",
+			"name"						: "Nombre",
+			"email"						: "Corre electrónico",
+			"status"					: "estado de la cuenta",
+			"status_active"				: "Activo",
+			"status_disabled"			: "Deshabilitado",
+			"no_ads"					: "Sin anuncios",
+			"last_activity"				: "Último activo",
+			"api_key"					: "Clave API",
+			"email_reports"				: "Informes de correo electrónico activos"
+		},
+
+		"table": {
+			"username"					: "Nombre de usuario",
+			"date"						: "Fecha",
+			"expiration_date"			: "Fecha de caducidad",
+			"no_expiration_date"		: "N/A",
+			"type"						: "Tipo",
+			"email"						: "Correo electrónico",
+			"name"						: "Nombre completo",
+			"amount"					: "Cantidad",
+			"currency"					: "",
+			"nr"						: "#"
+		},
+
+		"info_message": {
+			"no_transactions"			: "Por el momento no hay transacciones para mostrar.",
+			"no_unlocked_reports"		: "No hay informes activos para este usuario en este momento.",
+			"no_favorites"				: "No hay favoritos para este usuario .."
+		}
+
+	},
+
+	"admin_website_settings": {
+		"title"							: "Configuraciones del sitio web",
+		"menu"							: "Configuraciones del sitio web",
+		"header"						: "Configuraciones del sitio web",
+
+		"input": {
+			"title"						: "Título de la página",
+			"default_language"			: "Idioma predeterminado",
+			"default_language_help"		: "Para agregar más idiomas, consulte la documentación.",
+			"logo"						: "Logo",
+			"logo_help"					: "Se aceptan jpg, jpeg, png y svg. Tamaño recomendado: Altura máxima de 40 px y transparente.",
+			"logo_remove"				: "Quitar Logo",
+			"favicon"					: "Favicon",
+			"favicon_help"				: "Se aceptan jpg, jpeg, png e ico.",
+			"favicon_remove"			: "Quitar Favicon",
+			"meta_description"			: "Índice Meta Descripción",
+			"meta_keywords"				: "Índice de palabras clave meta",
+			"analytics_code"			: "Código de seguimiento de Google Analytics",
+			"analytics_code_help"		: "Inserte solo la identificación. Ejemplo: UA-22222222-33",
+			"email_confirmation"		: "Confirmación de registro necesaria por correo electrónico",
+			"email_reports"				: "Informes por correo electrónico",
+			"email_reports_help"		: "Al habilitar los informes por correo electrónico, el trabajo cron enviará actualizaciones a los usuarios sobre el progreso de sus cuentas de instagram. <strongEl cron debe estar configurado para que esto funcione</strong>",
+			"email_reports_default"		: "Informes de correo electrónico habilitados por defecto",
+			"email_reports_default_help": "Si está habilitado, todos los usuarios nuevos tendrán informes de correo electrónico activados por defecto.",
+			"email_reports_frequency"	: "Frecuencia de informes de correo electrónico",
+			"email_reports_favorites"	: "Habilitar informes de correo electrónico favoritos",
+			"email_reports_favorites_help" : "Al habilitar esto, las personas que simplemente prefieran una cuenta también recibirán notificaciones por correo electrónico. <strong>Esto solo funciona cuando el precio de los informes se establece en 0 (deshabilitado). </strong>",
+			"time_zone"					: "Zona horaria",
+			"directory"					: "Modo de directorio",
+			"directory_help"			: "Establezca los permisos de quién puede acceder a la página del directorio de usuarios de IG.",
+			"directory_pagination"		: "Paginación de directorio",
+			"directory_pagination_help"	: "Cuántos resultados desea ver por mostrar más en la página Directorio.",
+			"ads_help"					: "Estos campos aceptan texto o html.",
+			"index_ad"					: "Código de anuncio para la página de índice",
+			"report_ad"					: "Código de anuncio para la página Informe",
+			"account_sidebar_ad"		: "Código de anuncio para la barra lateral",
+			"recaptcha"					: "ReCaptcha",
+			"recaptcha_help"			: "Si está habilitado, debe agregar la clave pública y privada de la API de Google Recaptcha",
+			"public_key"				: "Llave pública",
+			"private_key"				: "Llave privada",
+			"social_help"				: "Enlaces sociales que se mostrarán en el pie de página del sitio web. Ingrese solo la identificación / nombre de la página",
+			"facebook"					: "Facebook",
+			"twitter"					: "Twitter",
+			"instagram"					: "Instagram",
+			"youtube"					: "Youtube",
+			"smtp_help"					: "Si no se ingresan valores en este campo, el sistema intentará usar la función de correo predeterminada.",
+			"smtp_host"					: "Host SMTP",
+			"smtp_port"					: "Puerto SMTP",
+			"smtp_user"					: "Usuario SMTP",
+			"smtp_pass"					: "Pase SMTP",
+			"smtp_auth"					: "Autenticación",
+			"smtp_encryption"			: "Cifrado",
+			"smtp_from"					: "Desde (correo electrónico)",
+			"smtp_from_help"			: "El correo electrónico del que los usuarios reciben el correo electrónico / el correo electrónico de 'respuesta' (registro / activación del correo electrónico / contraseña perdida)",
+			"facebook_login"			: "Habilitar registro / inicio de sesión en Facebook",
+			"facebook_app_id"			: "ID de la aplicación de Facebook",
+			"facebook_app_secret"		: "Secreto de la aplicación de Facebook",
+			"instagram_login"			: "Habilitar registro / inicio de sesión de Instagram",
+			"instagram_client_id"		: "ID de cliente de Instagram",
+			"instagram_client_secret"	: "Secreto de cliente de Instagram",
+			"store_paypal_mode"			: "Modo Paypal",
+			"store_paypal_mode_help"	: "live - producción, sandbox - propósitos de prueba",
+			"store_paypal_client_id"	: "ID de cliente de Paypal",
+			"store_help"				: "Por favor, consulte la<a href=\"https://altumcode.link/phpanalyzer-docs\">Documentación</a> para averiguar dónde obtener las llaves.",
+			"store_paypal_secret"		: "Secreto de Paypal",
+			"store_stripe_publishable_key"		: "Clave de clave publicable",
+			"store_stripe_secret_key"			: "Llave secreta de Stripe",
+			"store_stripe_webhook_secret"		: "Stripe Webhook Secret",
+			"store_currency"					: "Moneda",
+			"store_unlock_report_price"			: "Desbloquear precio de informe (puntos)",
+			"store_unlock_report_price_help"	: "Establézcalo en 0 si desea que todos los informes estén disponibles para todos. Si se establece en 0, el cron comprueba todos los informes disponibles, no solo los que se compran.",
+			"store_unlock_report_time"			: "Desbloquear tiempo de informe (días)",
+			"store_unlock_report_time_help"		: "Establezca la cantidad de tiempo que un informe está disponible para el usuario después de la compra. Establézcalo en 0 si desea que el usuario tenga el Informe por un tiempo limitado después de la compra.",
+			"store_user_default_points"			: "Puntos predeterminados para los usuarios",
+			"store_user_default_points_help"	: "Puntos predeterminados que un usuario obtiene al registrarse.",
+			"store_no_ads_price"				: "Sin precio del paquete de anuncios (puntos)",
+
+			"cron_url"							: "Cron Url",
+			"cron_url_help"						: "La URL de trabajo cron que debe usar al crear su trabajo cron.",
+			"cron_help"							: "Por favor, consulte la <a href=\"https://altumcode.link/phpanalyzer-docs\">Documentación</a> para averiguar cómo configurar el Cron.",
+			"cron_queries"						: "Consultas cronológicas por ejecución",
+			"cron_queries_help"					: "Cuántas cuentas verificar en una Ejecución Cron. Para un rendimiento óptimo, seleccione un valor entre<strong>1</strong> y <strong>5</strong>",
+			"cron_mode"							: "Modo Cron",
+			"cron_mode_help"					: "ACTIVO: el cronjob actualizará solo los informes activos. <br /> TODOS: el cronjob actualizará a todos los usuarios.",
+			"cron_auto_add_missing_logs"		: "Calcular y agregar registros de informes faltantes *BETA*",
+			"cron_auto_add_missing_logs_help"	: "Cuando está habilitado, el cron del sistema intentará calcular automáticamente los registros que no se agregaron. Ej: Si un informe no se actualiza durante 3 días y el cuarto día que el cron se ejecuta en ese informe, también calculará automáticamente los otros 3 días aproximadamente.",
+
+			"email_template_subject"			: "Asunto",
+			"email_template_body"				: "Cuerpo",
+			"activation_email_template"			: "Correo electrónico de activación",
+			"lost_password_email_template"		: "Contraseña perdida de correo electrónico",
+			"credentials_email_template"		: "Nuevas credenciales de correo electrónico",
+			"credentials_email_template_help"	: "Esta plantilla de correo electrónico se usa cuando alguien se registra a través de las redes sociales. Este correo electrónico notificará al usuario su nueva cuenta y su nombre de usuario y contraseña generados.",
+
+			"admin_email_notification_emails"			: "Correos electrónicos para ser notificados",
+			"admin_email_notification_emails_help"		: "Correos electrónicos que recibirán una notificación cuando se realice una de las acciones inferiores. Agregue direcciones de correo electrónico válidas separadas por una coma.",
+			"admin_new_user_email_notification"			: "Nuevo usuario",
+			"admin_new_user_email_notification_help"	: "Reciba un correo electrónico cuando un nuevo usuario se registre en el sitio web.",
+			"admin_new_payment_email_notification"		: "Nuevo pago",
+			"admin_new_payment_email_notification_help"	: "Reciba un correo electrónico cuando un nuevo pago se procese con éxito.",
+
+			"proxy"								: "Habilitar proxy",
+			"proxy_help"						: "Al habilitar Proxy, se determinará el script que se intentará y se enviará una solicitud a Instagram a través de Proxies que haya agregado en  <a href=\"admin/proxies-management\">Gestión de proxies</a>",
+			"proxy_exclusive"					: "Solicitudes solo de proxy",
+			"proxy_exclusive_help"				: "Si está habilitado, las solicitudes de instagram solo se enviarán con servidores proxy (no desde el servidor actual). Si no está habilitado, habrá una probabilidad aproximada del 50% de usar el servidor actual.",
+			"proxy_timeout"						: "Tiempo de espera de proxy",
+			"proxy_timeout_help"				: "Después de cuántos segundos una solicitud de proxy debería agotar",
+			"proxy_failed_requests_pause"		: "Solicitudes fallidas de proxy hasta pausa",
+			"proxy_failed_requests_pause_help"	: "Después de cuántas solicitudes fallidas debe detenerse una solicitud de proxy",
+			"proxy_pause_duration"				: "Duración de pausa de proxy (minutos)",
+			"proxy_pause_duration_help"			: "Después de cuántos minutos se debe volver a usar una solicitud de proxy después de una pausa"
+		},
+
+		"button": {
+			"test_email"							: "Probar configuración de correo electrónico después de una pausa",
+			"test_email_help"					: "Enviará un correo electrónico al valor desde el campo <strong>De</strong> que configuró anteriormente. ¡Asegúrese de guardar primero la configuración!"
+		},
+
+		"success_message": {
+			"saved"								: "La configuración del sitio web se ha guardado!",
+			"email"								: "¡El correo electrónico de prueba se ha enviado correctamente!"
+		},
+
+		"error_message": {
+			"email"								: "Error de prueba de correo electrónico: %s"
+		},
+
+		"email_template_keys": {
+			"help"								: "<u>This form supports html so that you can format the email how you want.</u>",
+			"name"								: "{{NAME}} - Nombre del usuario",
+			"website_title"						: "{{WEBSITE_TITLE}} - Título del sitio web",
+			"website_link"						: "{{WEBSITE_LINK}} - URL del sitio web",
+			"activation_link"					: "{{ACTIVATION_LINK}} - Enlace de activación",
+			"lost_password_link"				: "{{LOST_PASSWORD_LINK}} - Restablecer enlace de contraseña",
+			"account_username"					: "{{ACCOUNT_USERNAME}} - Nombre de usuario de nueva cuenta",
+			"account_password"					: "{{ACCOUNT_PASSWORD}} - Contraseña nueva cuenta"
+		},
+
+		"tab": {
+			"main"						: "Principal",
+			"store"						: "Tienda",
+			"ads"						: "Anuncios",
+			"api"						: "API's",
+			"social"					: "Social",
+			"email"						: "Correo electrónico",
+			"email_templates"			: "Plantillas de correo electrónico",
+			"email_notifications"		: "Notificaciónes de Correo Electrónico",
+			"sources"					: "Configuraciones de fuentes",
+			"cron"						: "Trabajo de cron",
+			"proxy"						: "Proxy"
+		}
+	},
+
+
+	"admin_extra_settings": {
+		"title"							: "Configuraciones extra",
+		"menu"							: "Configuraciones extra",
+
+		"header2"						: "Complementos",
+		"subheader2"					: "Aquí puede administrar y verificar los complementos en el sistema.",
+
+		"input": {
+			"username"					: "Nombre de usuario",
+			"is_featured"				: "Es destacado: %s"
+		},
+
+		"table": {
+			"username"					: "Nombre de usuario",
+			"actions"					: "",
+			"is_featured"				: "Es destacado",
+			"source"					: "Fuente"
+		},
+
+		"display": {
+			"no_plugins"				: "Actualmente se está desarrollando un complemento. Estén atentos 🔥",
+			"activate"					: "Activar",
+			"deactivate"				: "Desactivar",
+			"get"						: "Descargar complemento",
+
+			"demo_reports"				: "Informes de demostración",
+			"demo_reports_help"			: "Aquí puede establecer qué informes se muestran en el índice y son gratuitos para todos los usuarios."
+		},
+
+		"error_message": {
+
+		}
+	},
+
+	"admin_website_statistics": {
+		"title"							: "Estadísticas del sitio web",
+		"menu"							: "Estadísticas",
+		"header"						: "Estadísticas de <u>%s</u> a <u>%s</u>",
+		"subheader"						: "Vea cómo evoluciona su sitio web a lo largo del tiempo.",
+
+		"sales": {
+			"header"					: "Las ventas generadas de su sitio web",
+			"sales"						: "%s ventas e ingresos generados de %s %s",
+			"no_sales"					: "Aún no tienes ventas. ¡Sigue adelante!"
+		},
+
+		"new": {
+			"users"						: "Nuevos usuarios",
+			"payments"					: "Nuevos pagos",
+			"favorites"					: "Nuevos informes favoritos",
+			"unlocked_reports"			: "New Unlocked Reports"
+		}
+	},
+
+
+	"not_found": {
+		"title"							: "No se encontró",
+		"content"						: "La página que estás buscando no existe ...",
+		"reports_header"				: "Mientras tanto..",
+		"reports_subheader"				: "Puede consultar algunos de nuestros informes analíticos de demostración, ¡son geniales!",
+
+		"error_message": {
+			"invalid_link" 				: "Intentaste ingresar un enlace roto. "
+		}
+	},
+
+	"api": {
+		"error_message": {
+			"unauthorized"				: "Su clave de API no está autorizada para realizar esta solicitud.",
+			"not_found"					: "Este nombre de usuario no se encuentra en el sistema."
+		}
+	},
+
+	"datatable": {
+		"sEmptyTable"					: "No hay datos disponibles en la tabla",
+		"sInfo"							: "Mostrando _START_ a _END_ de _TOTAL_ entradas",
+		"sInfoEmpty"					: "Mostrando 0 a 0 de 0 entries",
+		"sInfoFiltered"					: "(filtrado de _MAX_ entradas totales)",
+		"sInfoPostFix"					: "",
+		"sInfoThousands"				: ",",
+		"sLengthMenu"					: "_MENU_",
+		"sLoadingRecords"				: "Cargando...",
+		"sProcessing"					: "<div id=\"loading\" class=\"text-center\"><div class=\"lds-ripple\"><div></div><div></div></div></div>",
+		"searchPlaceholder"				: "Buscar..",
+		"search"						: "",
+		"sZeroRecords"					: "No se encontraron registros relacionados",
+		"oPaginate": {
+			"sFirst"					: "Primer",
+			"sLast"						: "Último",
+			"sNext"						: "Siguiente",
+			"sPrevious"					: "Atrás"
+		},
+		"oAria": {
+			"sSortAscending"			: ": activar para ordenar la columna ascendente",
+			"sSortDescending"			: ": activar para ordenar la columna descendente"
+		}
+	}
+}

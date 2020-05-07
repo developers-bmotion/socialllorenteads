@@ -1,0 +1,1177 @@
+{
+	"language_code"						: "en-US",
+	"direction"							: "ltr",
+
+	"global": {
+		"submit_button"					: "Submit",
+		"delete"						: "Delete",
+		"edit"							: "Edit",
+		"view"							: "View",
+		"enable"						: "Enable",
+		"disable"						: "Disable",
+		"show_more"						: "Show More",
+		"language"						: "Language",
+		"choose_language"				: "Choose Language",
+		"close"							: "Close",
+		"online"						: "Online",
+		"search"						: "Search",
+		"directory_search"				: "Directory",
+		"search_view_all"				: "View all results",
+		"go_back_button"				: "Go Back",
+		"verified"						: "Verified User",
+		"date_range_selector"			: "Select Range",
+		"yes"							: "Yes",
+		"no"							: "No",
+		"export_csv"					: "Export to csv",
+
+		"message_type": {
+			"error"						: "Error!",
+			"info"						: "Info!",
+			"success"					: "Success!"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Are you sure you want to delete this ?",
+			"premium_access"			: "We are sorry but you can only access those features if you have a premium account.."
+		},
+
+		"success_message": {
+			"basic"						: "Your requested command was performed successfully!",
+			"account_activated"			: "Your account was activated! Welcome!"
+		},
+
+		"error_message": {
+			"directory_not_writeable"	: "Directory is not writable <strong>%s</strong>",
+			"empty_fields"				: "You must fill all the fields!",
+			"invalid_captcha"			: "The captcha code is not valid!",
+			"invalid_file_type"			: "Invalid file type!",
+			"invalid_image_size"		: "You're uploaded image is exceeding the size limit ( %s )!",
+			"invalid_token"				: "The action could not be finished because the protector has expired, please try again!",
+			"command_denied"			: "You don't have access to this command!",
+			"page_access_denied"		: "You can't access this page!",
+			"invalid_account"			: "This user does not exist!",
+			"basic"						: "We could not perform your requested command!",
+			"system_issues"				: "There are some system issues at the moment, please contact an admin and tell him about this problem."
+		},
+
+		"menu": {
+			"home"						: "Home",
+			"logout"					: "Logout",
+			"settings"					: "Settings",
+			"admin"						: "Admin",
+			"website"					: "Visit Site",
+			"search_title"				: "Try it right now.",
+			"search_title2"				: "Check another account",
+			"instagram"					: "Instagram",
+			"admin_settings"			: "Settings",
+			"search_placeholder" 		: "Enter instagram username or profile link.."
+		},
+
+		"date": {
+			"datetime_format"			: "Y-m-d",
+			"SET_THIS_AT_YOUR_OWN_RESPONSIBILITY": "Make sure to add only valid datetime formats.",
+
+			"x_days"					: "%s days",
+			"x_months"					: "%s months",
+			"year"						: "1 year",
+			"x_years"					: "%s years",
+			"year_and_half"				: "1 year and half",
+
+			"daily"						: "Daily",
+			"weekly"					: "Weekly",
+			"monthly"					: "Monthly",
+
+			"short_day_of_week": {
+				"1"						: "Mon",
+				"2"						: "Tue",
+				"3"						: "Wed",
+				"4"						: "Thu",
+				"5"						: "Fri",
+				"6"						: "Sat",
+				"7"						: "Sun"
+			}
+		},
+
+		"number": {
+			"decimal_point"				: ".",
+			"thousands_separator"		: ","
+		},
+
+		"accessibility": {
+			"toggle_navigation"			: "Toggle navigation",
+			"logo_alt"					: "Website Logo",
+			"captcha_image_alt"			: "Captcha",
+			"captcha_input"				: "Captcha Field"
+		},
+
+		"email": {
+			"admin_new_user_email_notification_subject"		: "New User Registered!",
+			"admin_new_user_email_notification_body"		: "Hey!<br /><br />A new user just registered to the website!<br /><br />Welcome <strong>%s</strong> with the <strong>%s</strong> username to your website!",
+			"admin_new_payment_email_notification_subject"	: "New Payment via %s of %s %s!",
+			"admin_new_payment_email_notification_body"		: "Hey!<br /><br />A user just paid <strong>%s %s</strong> to the website!<br /><br />Here's to more earnings!"
+		},
+
+		"footer": {
+			"facebook"					: "Facebook",
+			"twitter"					: "Twitter",
+			"instagram"					: "Instagram",
+			"youtube"					: "YouTube"
+		}
+	},
+
+	"page": {
+		"display": {
+			"edit"						: "Edit Page"
+		},
+
+		"info_message": {
+			"invalid_page"				: "The page you're looking for does not exist!"
+		}
+	},
+
+	"favorites": {
+		"title"							: "Your Favorites",
+		"header"						: "Favorites",
+		"menu"							: "Favorites",
+		"source_header"					: "Your favorite %s accounts",
+
+		"no_favorites": {
+			"message"					: "You don't have any favorites, maybe want to track your competitors?",
+			"button"					: "Start tracking"
+		}
+	},
+
+	"compare": {
+		"title"							: "Compare Users",
+		"title_dynamic"					: "Compare %s with %s Instagram",
+		"header"						: "Compare Instagram Accounts",
+		"header_help"					: "Here you can input two instagram accounts that you have access to and you can compare and analyze their statistics side by side.",
+
+		"display": {
+			"compare_text"				: "vs",
+			"search_input_placeholder"	: "Instagram Username",
+			"statistics"				: "Statistics Comparison",
+			"view_report"				: "View Report",
+			"top_posts"					: "Top Posts",
+			"top_posts_help"			: "Top posts from the last %s posts of both accounts.",
+			"engagement_rate"			: "Engagement Rate",
+			"engagement_rate_help"		: "The engagement rate is the number of active likes / comments on each post",
+			"average_likes"				: "Average Likes",
+			"average_likes_help"		: "Average likes based on the last %s posts",
+			"average_comments"			: "Average Comments",
+			"average_comments_help"		: "Average comments based on the last %s posts",
+
+			"average_engagement_rate_chart" : "Average Engagement Rate Chart",
+			"followers_chart"			: "Followers Chart"
+		},
+
+		"info_message": {
+			"private_account"			: "This is a private account, can't display this data..",
+			"user_not_found"			: "It seems that <strong>%s</strong> does not exist in our database yet, would you like to add <strong>%s</strong> to our database?"
+		},
+
+		"error_message": {
+			"embed"						: "We could not fetch the embed post.",
+			"no_access"					: "You do not have access to these statistics unless you login.",
+			"no_access_purchase"		: "You must have at least one Report purchased of either one of accounts that you want to check."
+		}
+	},
+
+	"report": {
+		"display": {
+			"comparison"				: "%s%s compared to last check.",
+
+			"add_favorite"				: "<span data-toggle=\"tooltip\" title=\"Add to favorites\"><i class=\"far fa-fw fa-heart\"></i></span>",
+			"remove_favorite"			: "<span data-toggle=\"tooltip\" title=\"Remove from favorites\"><i class=\"fa fa-fw fa-heart text-danger\"></i></span>",
+
+			"actions"					: "Actions",
+			"compare"					: "Compare",
+			"pdf_link"					: "PDF Export",
+			"api_link"					: "API Link",
+
+			"statistics_summary"        : "Statistics Summary",
+			"summary"					: "Account Stats Summary",
+			"summary_help"				: "Showing last 15 entries.",
+			"total_summary"				: "<i class=\"fa fa-fw fa-list-ol\"></i> Total Summary",
+
+			"projections"				: "Future Projections",
+			"no_projections"			: "There is not enough data to generate future projections, please come back tomorrow.",
+			"projections_help"			: "Here you can see the approximated future projections based on your previous days averages",
+			"time_until"				: "Time Until",
+			"time_until_now"			: "Current Stats",
+			"average_calculations"		: "<i class=\"fa fa-fw fa-calculator\"></i> Based on an average of",
+
+			"private_account"			: "This is a private account",
+			"private_account_help"		: "We can't get in depth details for private accounts, make sure your account is public before checking for the full report.",
+			"unlock"					: "<i class=\"fa fa-fw fa-unlock\"></i> Unlock report",
+			"unlock_helper"				: "Get access for all the informations available for <strong>%s</strong>",
+			"unlock_helper2"			: "Unlock report for just <strong>%s</strong> point(s). ( 1 Point = 1 %s )",
+			"unlock_helper3"			: "The report will be available for <strong>%s</strong> days after the purchase.",
+
+			"last_successful_check_date": "Last successful check date: %s",
+			"last_check_date"			: "Last check date: %s",
+			"time_zone"					: "Time Zone: %s",
+			"date"						: "Date",
+			"date_help"					: "Format: %s"
+		},
+
+		"state": {
+			"not_checked_full_name"		: "This report was not yet generated",
+			"not_checked_description"	: "This report was not yet generated, click on the report to calculate it"
+		},
+
+		"button": {
+			"login"						: "Login",
+			"register"					: "Register",
+			"purchase"					: "Unlock report",
+			"refresh"					: "I made my profile public",
+			"date"						: "Select Range"
+		},
+
+		"info_message": {
+			"recently_generated"		: "This report was recently generated by the system and history data is minimal at the moment."
+		},
+
+		"error_message": {
+			"low_followers"				: "We are sorry but we only add accounts to our database with %s or more followers.."
+		},
+
+		"statistics_compare": {
+			"title"						: "Engagement Rates on Instagram",
+			"subtitle"					: "These are overall / average engagement rates found on Instagram. Statistics based on analysis of more than 1 million influencer profiles."
+		}
+	},
+
+
+	"account_settings": {
+		"title"							: "Account Settings",
+		"menu"							: "Account Settings",
+		"header"						: "Account Settings",
+		"header2"						: "Change Password",
+		"header2_help"					: "If you do not want to change your password, do not fill any of those fields below.",
+		"header3"						: "Delete Account",
+		"header3_help"					: "By deleting the account, all of your stored data will be deleted. This action is irreversible once done.",
+
+		"display": {
+			"last_activity"				: "Last active: "
+		},
+
+		"input": {
+			"current_password"			: "Current Password",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password",
+			"email"						: "Email",
+			"username"					: "Username",
+			"name"						: "Name",
+			"email_reports"				: "Enable Email Reports",
+			"email_reports_help"		: "The system will send you <strong>%s</strong> updates about your tracked accounts"
+		},
+
+		"error_message": {
+			"invalid_current_password"	: "Your current password is not valid!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match",
+			"username_length"			: "Username must be between 3 and 32 characters!",
+			"user_exists"				: "We're sorry, but the <strong>%s</strong> username is already taken!"
+		},
+
+		"success_message": {
+			"account_updated"			: "Your account was updated!"
+		}
+	},
+
+
+	"reset_password": {
+		"title"							: "Reset Password",
+		"header"						: "Reset Password",
+
+		"input": {
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"error_message": {
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match"
+		},
+
+		"success_message": {
+			"password_updated"			: "Your password has been updated!"
+		}
+	},
+
+
+	"login": {
+		"menu"							: "Login",
+		"title"							: "Login",
+		"header"						: "Login",
+
+		"input": {
+			"username" 					: "Username or Email Address",
+			"password"					: "Password",
+			"remember_me"				: "Remember me"
+		},
+
+		"button": {
+			"login"						: "Sign In",
+			"lost_password"				: "Lost Password",
+			"resend_activation"			: "Resend Activation",
+			"facebook"					: "%s Login",
+			"instagram"					: "%s Login "
+		},
+
+		"info_message": {
+			"logged_in"					: "Welcome back, you are now logged in!"
+		},
+
+		"error_message": {
+			"wrong_login_credentials"	: "Your username - password combination is not valid!",
+			"user_not_active"			: "Your account is not confirmed or banned!"
+
+		}
+	},
+
+
+	"lost_password": {
+		"title"							: "Lost Password",
+		"header"						: "Lost Password",
+
+		"input": {
+			"email" 					: "Email"
+		},
+
+		"notice_message": {
+			"success"					: "We sent an email to that accounts address if an account is registered with it!"
+		}
+	},
+
+	"resend_activation": {
+		"title"							: "Resend Activation",
+		"header"						: "Resend Activation Email",
+
+		"input": {
+			"email" 					: "Email"
+		},
+
+		"notice_message": {
+			"success"					: "We sent an email to that accounts address if an account is registered with it!"
+		}
+	},
+
+
+	"register": {
+		"title"							: "Register",
+		"menu"							: "Register",
+		"header"						: "Register",
+		"subheader"						: "Already have an account?",
+
+		"input": {
+			"username" 					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"password"					: "Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"error_message": {
+			"username_length"			: "Username must be between 3 and 32 characters!",
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"user_exists"				: "We're sorry, but the <strong>%s</strong> username is already taken!",
+			"email_exists"				: "We're sorry, but that email is already used!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match",
+			"username_characters"		: "You can only use letters, digits and the '.', '_' characters for your username field",
+			"email_is_null"				: "Your facebook account doesn't have an email associated with it, we could not finish the Facebook login process."
+		},
+
+
+		"success_message": {
+			"registration"				: "Your account has been created, check your email for the activation link!",
+			"login"						: "Welcome to our platform, we are grateful to have you here!"
+		}
+	},
+
+
+	"dashboard": {
+		"title"							: "Dashboard",
+		"menu"							: "Dashboard",
+
+		"display": {
+			"header"					: "Welcome to %s!",
+			"text"						: "This text is editable from the language file :)",
+			"store"						: "Account Balance of %s total points",
+			"joined"					: "Joined %s",
+			"favorites"					: "Total favorites %s",
+			"reports"					: "Total unlocked reports %s"
+		},
+		"sidebar": {
+			"premium"					: "Premium",
+			"header"					: "Hey, %s 🔥",
+			"text"						: "Here are some useful links below <i class=\"fa fa-fw fa-arrow-down\"></i>"
+		}
+
+	},
+
+	"my_reports": {
+		"title"							: "My Reports",
+		"menu"							: "My Reports",
+		"header"						: "My Reports",
+		"subheader"						: "List with all the %s reports you have currently unlocked.",
+
+		"table": {
+			"username"					: "Username",
+			"expiration_date"			: "Expiration",
+			"no_expiration_date"		: "Does not expire",
+			"nr"						: "#"
+		},
+
+		"no_unlocked_reports": {
+			"message"					: "You currently don't have any unlocked reports..",
+			"button"					: "Start analyzing"
+		}
+
+	},
+
+	"api_documentation": {
+		"title"							: "API Documentation",
+		"menu"							: "API Documentation",
+		"header"						: "API Documentation",
+		"subheader"						: "Here you can find how you can use the API for your unlocked reports.",
+
+		"display": {
+			"api_link"					: "API Link for %s",
+			"text1"						: "The API is used to get current information of a generated report that is available to your account.",
+			"api_key"					: "API Key",
+			"api_url"					: "API Url",
+			"format"					: "URL Format",
+			"method"					: "Method",
+			"url_params"				: "URL Query Params",
+			"url_params_help"			: "You are required to specify all these params in order to get a valid response.",
+			"required"					: "Required",
+			"source_help"				: "The source parameter accepts the name of the source of details. (ex: instagram )",
+			"success_response"			: "Success Response",
+			"success_response_help"		: "Here is how a sample request response should look like.",
+			"failed_response"			: "Failed Response",
+			"failed_response_help"		: "Here is how a failed request response will look like.",
+			"php_example"				: "PHP Simple Example",
+			"php_example_help"			: "A super easy example on how you can implement this with PHP."
+		},
+
+		"table": {
+			"username"					: "Username",
+			"date"						: "Date",
+			"expiration_date"			: "Expiration Date",
+			"no_expiration_date"		: "N/A",
+			"nr"						: "#"
+		},
+
+		"info_message": {
+			"no_unlocked_reports"			: "You currently don't have any unlocked reports.."
+		}
+
+	},
+
+	"store": {
+		"title"								: "Store",
+		"menu"								: "Store",
+		"header"							: "Store",
+		"header_transactions"				: "Transactions",
+		"confirm_purchase"					: "Are you sure you want to purchase this package ?",
+		"confirm_unlock_report"				: "Are you sure you want to unlock this report ?",
+
+		"display": {
+			"state"							: "<strong>Account Balance:</strong> %s Points.",
+			"add_funds"						: "Add funds through %s",
+			"purchase"						: "Purchase now",
+			"info"							: "1 Point is equal to 1 unit of the website's currency ( %s )."
+		},
+
+
+		"no_ads": {
+			"title"							: "No Ads",
+			"description"					: "With the No Ads package you will not get any ads on the website and you show your support to the team for <strong>%s Points</strong>"
+		},
+
+		"table": {
+			"type"							: "",
+			"email"							: "Email",
+			"date"							: "Date",
+			"name"							: "Full Name",
+			"amount"						: "Amount",
+			"currency"						: "",
+			"nr"							: "#"
+		},
+
+		"info_message": {
+			"stripe_not_available"			: "We are sorry but Stripe payments are disabled at this moment in time..",
+			"paypal_not_available"			: "We are sorry but Paypal payments are disabled at this moment in time..",
+			"canceled"						: "It appears you have canceled your order, we couldn't process your payment.",
+			"no_transactions"				: "At the moment there are no transactions to show.."
+		},
+
+		"button": {
+			"pay"							: "Pay"
+		},
+
+		"paypal": {
+			"title"							: "PayPal",
+			"header"						: "Pay with PayPal",
+			"amount"						: "Select an amount of points"
+		},
+
+		"stripe": {
+			"title"							: "Stripe",
+			"header"						: "Pay with Stripe",
+			"amount"						: "Select an amount of points",
+			"description"					: "Points for the account"
+		},
+
+		"error_message": {
+			"already_no_ads"				: "It appears that your account already purchased the no ads package, you can't buy this package again.",
+			"instagram_user_not_found"		: "Instagram user not found..",
+			"normal"						: "Something happened while we tried to process your payment..",
+			"not_enough_funds"				: "You don't have enough funds! Add more funds to your account and get back :)",
+			"allowed_packages"				: "Please try purchasing a package that is listed below."
+		},
+
+		"success_message": {
+			"paid"							: "You just got new funds into your account!",
+			"purchased"						: "You just purchased the package!",
+			"report_unlocked"				: "The unlock was successful, enjoy the statistics!"
+		}
+	},
+
+
+	"index": {
+		"title"							: "Home",
+		"header"						: "",
+		"subheader"						: "Analyze and track your social media accounts",
+
+		"reports": {
+			"header"					: "Example reports",
+			"subheader"					: "Check out some of our demo analytics reports."
+		},
+
+		"presentation": {
+			"header"					: "Your Social Media Analytics Tool",
+			"subheader"					: "Track evolution of your social media accounts with beautiful statistics and charts.",
+
+			"one": {
+				"header"				: "Growth Statistics",
+				"subheader"				: "Track progress of any Instagram Account with day by day analytics of Followers, Following, Uploads, Engagement Rate and much more."
+			},
+
+			"two": {
+				"header"				: "Past, present, future",
+				"subheader"				: "We're giving you access to all the day by day analytics and generate accurate and free stats of any account that we have in our database."
+			},
+
+			"three": {
+				"header"				: "%s Email Reports",
+				"subheader"				: "We are even sending you notifications of your tracked social media accounts progress by email."
+			}
+		},
+
+		"box": {
+			"pdf_exports"				: "PDF EXPORTS",
+			"pdf_exports_text"			: "Easy to use and always ready PDF exports of the generated report.",
+
+			"future_projections"		: "FUTURE PROJECTIONS",
+			"future_projections_text"	: "Based on statistics generated by the accounts growth.",
+
+			"comparison_tool"			: "COMPARISON TOOL",
+			"comparison_tool_text"		: "Compare your statistics with your competitors and see who wins."
+		}
+
+	},
+
+	"directory": {
+		"title"							: "Directory - Find Influencers",
+		"header"						: "Directory - Find Influencers",
+		"subheader"						: "Find various instagram accounts by different criteria, we've got you covered!",
+		"menu"							: "Directory",
+
+		"display": {
+			"order_by"					: "Order by",
+			"order_by_help"				: "Order your results",
+			"order_by_filter"			: "Sort By",
+			"order_by_type"				: "Sort Type",
+			"ascending"					: "Ascending",
+			"descending"				: "Descending",
+
+			"bio"						: "Bio",
+			"bio_help"					: "Search words in Bio descriptions",
+			"followers"					: "Followers",
+			"followers_help"			: "Filter by range",
+			"engagement"				: "Engagement",
+			"engagement_help"			: "Filter by range",
+
+			"from"						: "From",
+			"to"						: "To",
+
+			"followers_from"			: "Followers from",
+			"followers_to"				: "Followers to",
+			"engagement_from"			: "Engagement from",
+			"engagement_to"				: "Engagement to"
+
+		},
+
+		"input": {
+			"bio_filter"				: "Keyword.."
+		},
+
+		"info_message": {
+			"no_results_title"			: "No results..",
+			"no_results"				: "at this moment in time..",
+			"logged_in"					: "You got to be logged in in order to use the directory page!"
+		}
+
+	},
+
+	"admin_pages_management": {
+		"title"							: "Pages Management",
+		"menu"							: "Pages",
+		"header"						: "Add Page",
+
+		"table": {
+			"title"						: "Name",
+			"url"						: "Url",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Bottom menu",
+			"actions"					: "Actions"
+		},
+
+		"input": {
+			"title"						: "Page Title",
+			"url"						: "URL / Slug",
+			"url_help"					: "If you enter a full URL (ex: https://google.com/) then it will directly point to that page instead of generating an internal page.",
+			"description"				: "Description",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Footer"
+		}
+	},
+
+	"admin_proxies_management": {
+		"title"							: "Proxies Management",
+		"menu"							: "Proxies",
+		"header"						: "Add Proxy",
+
+		"table": {
+			"address"					: "Address",
+			"total_successful_requests"	: "Total Successful Requests",
+			"total_failed_requests"		: "Total Failed Requests",
+			"note"						: "Note",
+			"actions"					: "Actions"
+		},
+
+		"input": {
+			"help"						: "You can enable / disable the Proxy System by going to the <a href=\"admin/website-settings\">Website Settings</a>",
+			"address"					: "IP Address",
+			"port"						: "Port",
+			"auth_help"					: "Leave the Username and Password fields empty if the proxy has no authentication",
+			"username"					: "Username",
+			"password"					: "Password",
+			"note"						: "Note",
+			"note_help"					: "Small note about the proxy, ex: a name, an identifier for you",
+			"method"					: "Method",
+			"method_help"				: "Method of connection to the proxy."
+		},
+
+		"button": {
+			"test"						: "Test Proxy",
+			"submit"					: "Submit & Test"
+		},
+
+		"success_message": {
+			"test"						: "The test request was successful!"
+		}
+	},
+
+	"admin_payments_list": {
+		"title"							: "Payments List",
+		"menu"							: "Payments",
+
+		"table": {
+			"type"						: "Type",
+			"email"						: "Email",
+			"username"					: "Username",
+			"date"						: "Date",
+			"name"						: "Full Name",
+			"amount"					: "Amount",
+			"currency"					: ""
+		},
+
+		"display": {
+			"search_placeholder"		: "Search by username, name or email.."
+		}
+	},
+
+
+	"admin_index": {
+		"title"							: "Admin Dashboard",
+		"menu"							: "Dashboard",
+		"header"						: "Dashboard",
+
+		"display": {
+			"unlocked_reports_month"	: "Unlocked Reports this month",
+			"unlocked_reports"			: "Total Unlocked Reports",
+			"transactions_month"		: "Transactions this month",
+			"transactions"				: "Total Transactions",
+			"earnings_month"			: "Earnings this month",
+			"earnings"					: "Total Earnings",
+			"active_users_month"		: "Active Users this month",
+			"active_users"				: "Total Users",
+			"latest_users"				: "Latest Accounts",
+			"latest_payments"			: "Latest Payments"
+		},
+
+		"table": {
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"type"						: "Type",
+			"date"						: "Date",
+			"actions"					: "Actions"
+		}
+	},
+
+
+	"admin_users_management": {
+		"title"							: "Users Management",
+		"menu"							: "Users",
+
+		"table": {
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"active"					: "Status",
+			"registration_date"			: "Reg. Date",
+			"actions"					: "Actions"
+		},
+
+		"tooltip": {
+			"admin"						: "Admin",
+			"owner"						: "Owner"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "By deleting this user, everything that is linked to that user will be deleted!"
+		},
+
+		"error_message": {
+			"self_delete"				: "You can't delete yourself!",
+			"self_status"				: "You can't change your own status!"
+		},
+
+		"display": {
+			"search_placeholder"		: "Search by username, name or email..",
+			"user_active"				: "Active",
+			"user_disabled"				: "Disabled"
+		}
+	},
+
+	"admin_instagram_users_import": {
+		"title"							: "Instagram Users Importer",
+		"header"						: "Instagram Users Importer",
+		"header_help"					: "With the import feature you can add bulk instagram users to the database so the system starts tracking them.",
+
+		"input": {
+			"content"					: "Instagram Users",
+			"content_help"				: "The field is accepting:  <strong>one instagram username per line</strong> or <strong>comma separated instagram accounts</strong>."
+		},
+
+		"success_message": {
+			"imported"					: "%s accounts have been imported to the database"
+		},
+
+		"info_message": {
+			"duplicates"				: "%s accounts have not been imported to the database because they are duplicates"
+		}
+
+	},
+
+	"admin_page_edit": {
+		"title"							: "Edit Page",
+		"header"						: "Edit Page",
+
+		"input": {
+			"title"						: "Page Title",
+			"url"						: "URL / Slug",
+			"description"				: "Description",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Footer"
+		},
+
+		"error_message": {
+			"invalid_page"				: "That page wasn't found!"
+		}
+	},
+
+	"admin_proxy_edit": {
+		"title"							: "Edit Proxy",
+		"header"						: "Edit Proxy",
+
+		"input": {
+			"address"					: "IP Address",
+			"port"						: "Port",
+			"auth_help"					: "Leave the Username and Password fields empty if the proxy has no authentication",
+			"username"					: "Username",
+			"password"					: "Password",
+			"note"						: "Note",
+			"note_help"					: "Small note about the proxy, ex: a name, an identifier for you",
+			"method"					: "Method",
+			"method_help"				: "Method of connection to the proxy.",
+			"successful_requests"		: "Successful Requests",
+			"failed_requests"			: "Failed Requests",
+			"total_successful_requests"	: "Total Successful Requests",
+			"total_failed_requests"		: "Total Failed Requests",
+			"date"						: "Added Date",
+			"last_date"					: "Last Request Date"
+		},
+
+		"button": {
+			"submit"					: "Submit & Test"
+		},
+
+		"error_message": {
+			"invalid_page"				: "That proxy wasn't found!"
+		}
+	},
+
+
+	"admin_user_edit": {
+		"title"							: "Edit User",
+		"header"						: "Edit User",
+		"header_password"				: "Change Password",
+		"subheader_password"			: "Leave it empty if you don't want to change the password!",
+		"header_transactions"			: "Transactions",
+
+		"input": {
+			"points"					: "Current Points",
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"status"					: "Account Status",
+			"status_active"				: "Active",
+			"status_disabled"			: "Disabled",
+			"type"						: "User Privileges",
+			"type_help"					: "Admin users will have the same privileges as you, be careful!",
+			"type_admin"				: "Admin",
+			"type_user"					: "User",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password",
+			"no_ads"					: "No ads",
+			"no_ads_help"				: "This manually enables the No Ads package",
+			"last_activity"				: "Last Active"
+		},
+
+		"error_message": {
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"invalid_account"			: "That account wasn't found!",
+			"email_exists"				: "We're sorry, but that email is already used!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match"
+		}
+	},
+
+	"admin_user_view": {
+		"title"							: "View User",
+		"header"						: "View User",
+		"header_reports"				: "Unlocked Reports",
+		"subheader_reports"				: "Currently active and unlocked reports by this user.",
+		"header_favorites"				: "Favorite Accounts",
+		"subheader_favorites"			: "Accounts that this user has favorited.",
+		"header_transactions"			: "Transactions",
+
+		"input": {
+			"points"					: "Current Points",
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"status"					: "Account Status",
+			"status_active"				: "Active",
+			"status_disabled"			: "Disabled",
+			"no_ads"					: "No ads",
+			"last_activity"				: "Last Active",
+			"api_key"					: "API Key",
+			"email_reports"				: "Email Reports Active"
+		},
+
+		"table": {
+			"username"					: "Username",
+			"date"						: "Date",
+			"expiration_date"			: "Expiration Date",
+			"no_expiration_date"		: "N/A",
+			"type"						: "Type",
+			"email"						: "Email",
+			"name"						: "Full Name",
+			"amount"					: "Amount",
+			"currency"					: "",
+			"nr"						: "#"
+		},
+
+		"info_message": {
+			"no_transactions"			: "At the moment there are no transactions to show..",
+			"no_unlocked_reports"		: "No active reports for this user at the moment..",
+			"no_favorites"				: "No favorites for this user.."
+		}
+
+	},
+
+	"admin_website_settings": {
+		"title"							: "Website Settings",
+		"menu"							: "Website Settings",
+		"header"						: "Website Settings",
+
+		"input": {
+			"title"						: "Website title",
+			"default_language"			: "Default Language",
+			"default_language_help"		: "To add more languages, please consult the documentation.",
+			"logo"						: "Logo",
+			"logo_help"					: "jpg, jpeg, png and svg accepted. Recommended size: Max height of 40px and transparrent.",
+			"logo_remove"				: "Remove Logo",
+			"favicon"					: "Favicon",
+			"favicon_help"				: "jpg, jpeg, png and ico accepted.",
+			"favicon_remove"			: "Remove Favicon",
+			"meta_description"			: "Index Meta Description",
+			"meta_keywords"				: "Index Meta Keywords",
+			"analytics_code"			: "Google Analytics Tracking Code",
+			"analytics_code_help"		: "Insert only the ID. Example: UA-22222222-33",
+			"email_confirmation"		: "Registration confirmation needed via email",
+			"email_reports"				: "Email Reports",
+			"email_reports_help"		: "Enabling email reports will trigger the cron job to send updates to users about their instagram accounts progress. <strong>The cron must be set up in order for this to work</strong>",
+			"email_reports_default"		: "Email Reports Enabled By Default",
+			"email_reports_default_help": "If enabled, all new users will have email reports activated by default.",
+			"email_reports_frequency"	: "Email Reports Frequency",
+			"email_reports_favorites"	: "Enable Favorites Email Reports",
+			"email_reports_favorites_help" : "By enabling this, people who just simply favorite an account will get email notifications too. <strong>This only works when the price of the reports is set to 0 (disabled).</strong>",
+			"time_zone"					: "Time Zone",
+			"directory"					: "Directory Mode",
+			"directory_help"			: "Set the permissions of who can access the directory page of IG Users.",
+			"directory_pagination"		: "Directory Pagination",
+			"directory_pagination_help"	: "How many results you want to see per show more in the Directory page.",
+			"ads_help"					: "These fields accept text or html.",
+			"index_ad"					: "Ad Code for the Index page",
+			"report_ad"					: "Ad Code for the Report page",
+			"account_sidebar_ad"		: "Ad Code for the Sidebar",
+			"recaptcha"					: "ReCaptcha",
+			"recaptcha_help"			: "If enabled, you must add the public and private key from Google Recaptcha API",
+			"public_key"				: "Public Key",
+			"private_key"				: "Private Key",
+			"social_help"				: "Social links to be displayed in the footer of the website. Enter only the id / name of the page",
+			"facebook"					: "Facebook",
+			"twitter"					: "Twitter",
+			"instagram"					: "Instagram",
+			"youtube"					: "Youtube",
+			"smtp_help"					: "If there are no values entered in this field then the system will try to use the default mail function.",
+			"smtp_host"					: "SMTP Host",
+			"smtp_port"					: "SMTP Port",
+			"smtp_user"					: "SMTP User",
+			"smtp_pass"					: "SMTP Pass",
+			"smtp_auth"					: "Authentication",
+			"smtp_encryption"			: "Encryption",
+			"smtp_from"					: "From (email)",
+			"smtp_from_help"			: "The email that the users get the email from / the 'reply-to' email ( registration / email activation / lost password )",
+			"facebook_login"			: "Enable Facebook Registration / Login",
+			"facebook_app_id"			: "Facebook App Id",
+			"facebook_app_secret"		: "Facebook App Secret",
+			"instagram_login"			: "Enable Instagram Registration / Login",
+			"instagram_client_id"		: "Instagram Client Id",
+			"instagram_client_secret"	: "Instagram Client Secret",
+			"store_paypal_mode"			: "Paypal Mode",
+			"store_paypal_mode_help"	: "live - production, sandbox - testing purposes",
+			"store_paypal_client_id"	: "Paypal Client ID",
+			"store_help"				: "Please refer to the <a href=\"https://altumcode.link/phpanalyzer-docs\">Documentation</a> to find out where to get the keys.",
+			"store_paypal_secret"		: "Paypal Secret",
+			"store_stripe_publishable_key"		: "Stripe Publishable Key",
+			"store_stripe_secret_key"			: "Stripe Secret Key",
+			"store_stripe_webhook_secret"		: "Stripe Webhook Secret",
+			"store_currency"					: "Currency",
+			"store_unlock_report_price"			: "Unlock Report Price ( points )",
+			"store_unlock_report_price_help"	: "Set to 0 if you want to make all reports available to everyone. Setting to 0 will make the cron check all the reports available, not only those which are purchased.",
+			"store_unlock_report_time"			: "Unlock Report Time ( days )",
+			"store_unlock_report_time_help"		: "Set the amount of time a report is available to the user after purchasing. Set to 0 if you want the user to have the Report for an ulimited time after purchase.",
+			"store_user_default_points"			: "Default points for Users",
+			"store_user_default_points_help"	: "Default points that a user gets upon registering.",
+			"store_no_ads_price"				: "No Ads Package Price ( points )",
+
+			"cron_url"							: "Cron Url",
+			"cron_url_help"						: "The cron job url that you need to use when creating your cronjob.",
+			"cron_help"							: "Please refer to the <a href=\"https://altumcode.link/phpanalyzer-docs\">Documentation</a> to find out how to setup the Cron.",
+			"cron_queries"						: "Cron Queries per Execution",
+			"cron_queries_help"					: "How many accounts to check in one Cron Execution. For optimum performance, select a value between <strong>1</strong> to <strong>5</strong>",
+			"cron_mode"							: "Cron Mode",
+			"cron_mode_help"					: "ACTIVE - The cronjob will update only active reports. <br /> ALL - The cronjob will update all the users.",
+			"cron_auto_add_missing_logs"		: "Calculate & Add Missing Reports Logs *BETA*",
+			"cron_auto_add_missing_logs_help"	: "When enabled the system cron will try to automatically calculate logs that were not added. Ex: If a report does not get updated for 3 days and the fourth day the cron runs on that report, it will automatically calculate approximately the other 3 days as well.",
+
+			"email_template_subject"			: "Subject",
+			"email_template_body"				: "Body",
+			"activation_email_template"			: "Activation Email",
+			"lost_password_email_template"		: "Lost Password Email",
+			"credentials_email_template"		: "New Credentials Email",
+			"credentials_email_template_help"	: "This email template is used when somebody registers through social media. This email will notify the user of their new account and their generated username and password.",
+
+			"admin_email_notification_emails"			: "Emails to be be notified",
+			"admin_email_notification_emails_help"		: "Emails that will receive a notification when one of the bottom actions are performed. Add valid email addresses separated by a comma.",
+			"admin_new_user_email_notification"			: "New User",
+			"admin_new_user_email_notification_help"	: "Receive an email when a new users registers to the website.",
+			"admin_new_payment_email_notification"		: "New Payment",
+			"admin_new_payment_email_notification_help"	: "Receive an email when a new payment is successfully processed.",
+
+			"proxy"								: "Enable Proxy",
+			"proxy_help"						: "Enabling Proxy will determine the script to try and send request to instagram via Proxies that you have added in <a href=\"admin/proxies-management\">Proxies Management</a>",
+			"proxy_exclusive"					: "Proxy Only Requests",
+			"proxy_exclusive_help"				: "If enabled, the requests to instagram will only be sent with proxies ( not from the current server ). If not enabled then there will be an approximate 50% chance to use the current server.",
+			"proxy_timeout"						: "Proxy Timeout",
+			"proxy_timeout_help"				: "After how many seconds a proxy request should timeout",
+			"proxy_failed_requests_pause"		: "Proxy Failed Requests until Pause",
+			"proxy_failed_requests_pause_help"	: "After how many failed requests a proxy request should pause",
+			"proxy_pause_duration"				: "Proxy Pause Duration (minutes)",
+			"proxy_pause_duration_help"			: "After how many minutes a proxy request should be used again after a pause"
+		},
+
+		"button": {
+			"test_email"							: "Test Email Settings",
+			"test_email_help"					: "It will send an email to the value from the <strong>From</strong> field that you set above. Make sure to first save the settings!"
+		},
+
+		"success_message": {
+			"saved"								: "Website settings have been saved!",
+			"email"								: "The test email has been sent successfully!"
+		},
+
+		"error_message": {
+			"email"								: "Test email failed: %s"
+		},
+
+		"email_template_keys": {
+			"help"								: "<u>This form supports html so that you can format the email how you want.</u>",
+			"name"								: "{{NAME}} - Name of the user",
+			"website_title"						: "{{WEBSITE_TITLE}} - Title of the website",
+			"website_link"						: "{{WEBSITE_LINK}} - Url to the website",
+			"activation_link"					: "{{ACTIVATION_LINK}} - Activation link",
+			"lost_password_link"				: "{{LOST_PASSWORD_LINK}} - Reset Password Link",
+			"account_username"					: "{{ACCOUNT_USERNAME}} - New Account Username",
+			"account_password"					: "{{ACCOUNT_PASSWORD}} - New Account Password"
+		},
+
+		"tab": {
+			"main"						: "Main",
+			"store"						: "Store",
+			"ads"						: "Ads",
+			"api"						: "API's",
+			"social"					: "Social",
+			"email"						: "Email",
+			"email_templates"			: "Email Templates",
+			"email_notifications"		: "Email Notifications",
+			"sources"					: "Sources Settings",
+			"cron"						: "Cron Job",
+			"proxy"						: "Proxy"
+		}
+	},
+
+
+	"admin_extra_settings": {
+		"title"							: "Extra Settings",
+		"menu"							: "Extra Settings",
+
+		"header2"						: "Plugins",
+		"subheader2"					: "Here you can manage and check the plugins in the system.",
+
+		"input": {
+			"username"					: "Username",
+			"is_featured"				: "Is Featured: %s"
+		},
+
+		"table": {
+			"username"					: "Username",
+			"actions"					: "",
+			"is_featured"				: "Is Featured",
+			"source"					: "Source"
+		},
+
+		"display": {
+			"no_plugins"				: "A plugin is currently under development.. Stay tuned 🔥",
+			"activate"					: "Activate",
+			"deactivate"				: "Deactivate",
+			"get"						: "Download Plugin",
+
+			"demo_reports"				: "Demo Reports",
+			"demo_reports_help"			: "Here you can set which reports are displayed on the index and are for free for all users."
+		},
+
+		"error_message": {
+
+		}
+	},
+
+	"admin_website_statistics": {
+		"title"							: "Website Statistics",
+		"menu"							: "Statistics",
+		"header"						: "Statistics from <u>%s</u> to <u>%s</u>",
+		"subheader"						: "See how your website evolves throughout the time.",
+
+		"sales": {
+			"header"					: "Your website's generated sales",
+			"sales"						: "%s sales and generated a revenue of %s %s",
+			"no_sales"					: "You don't have any sales yet. Keep on going!"
+		},
+
+		"new": {
+			"users"						: "New Users",
+			"payments"					: "New Payments",
+			"favorites"					: "New Favorited Reports",
+			"unlocked_reports"			: "New Unlocked Reports"
+		}
+	},
+
+
+	"not_found": {
+		"title"							: "Not found",
+		"content"						: "The page you're looking for does not exist...",
+		"reports_header"				: "In the meantime..",
+		"reports_subheader"				: "You can check out some of our demo analytics reports, they are just great!",
+
+		"error_message": {
+			"invalid_link" 				: "You just tried to enter a broken link.. "
+		}
+	},
+
+	"api": {
+		"error_message": {
+			"unauthorized"				: "Your api key is not authorized to make this request.",
+			"not_found"					: "This username is not found in the system."
+		}
+	},
+
+	"datatable": {
+		"sEmptyTable"					: "No data available in table",
+		"sInfo"							: "Showing _START_ to _END_ of _TOTAL_ entries",
+		"sInfoEmpty"					: "Showing 0 to 0 of 0 entries",
+		"sInfoFiltered"					: "(filtered from _MAX_ total entries)",
+		"sInfoPostFix"					: "",
+		"sInfoThousands"				: ",",
+		"sLengthMenu"					: "_MENU_",
+		"sLoadingRecords"				: "Loading...",
+		"sProcessing"					: "<div id=\"loading\" class=\"text-center\"><div class=\"lds-ripple\"><div></div><div></div></div></div>",
+		"searchPlaceholder"				: "Search..",
+		"search"						: "",
+		"sZeroRecords"					: "No matching records found",
+		"oPaginate": {
+			"sFirst"					: "First",
+			"sLast"						: "Last",
+			"sNext"						: "Next",
+			"sPrevious"					: "Previous"
+		},
+		"oAria": {
+			"sSortAscending"			: ": activate to sort column ascending",
+			"sSortDescending"			: ": activate to sort column descending"
+		}
+	}
+}
