@@ -1188,3 +1188,21 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 	padding-left: 0;
 	padding-right: 1.25rem;
 }
+
+
+.report__icon--save.svg-inline--fa.fa-save{
+	width: 1.2rem;
+    height: 1rem;
+}
+
+.btn__report--save{
+	right: 0;
+	display: initial !important;
+	position: absolute;
+	z-index: 200;
+	top: -2rem;
+}
+
+.relative{
+	position: relative;
+}

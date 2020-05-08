@@ -225,7 +225,8 @@
 			"register"					: "Register",
 			"purchase"					: "Unlock report",
 			"refresh"					: "I made my profile public",
-			"date"						: "Select Range"
+			"date"						: "Select Range",
+			"save_report"				: "Save report"
 		},
 
 		"info_message": {
@@ -538,7 +539,8 @@
 		"success_message": {
 			"paid"							: "You just got new funds into your account!",
 			"purchased"						: "You just purchased the package!",
-			"report_unlocked"				: "The unlock was successful, enjoy the statistics!"
+			"report_unlocked"				: "The unlock was successful, enjoy the statistics!",
+			"report_saved"					: "The save was successful, enjoy the statistics!"
 		}
 	},
 

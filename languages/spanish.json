@@ -225,7 +225,8 @@
 			"register"					: "Registrarse",
 			"purchase"					: "Desbloquear informe",
 			"refresh"					: "Hice público mi perfil",
-			"date"						: "Seleccionar rango"
+			"date"						: "Seleccionar rango",
+			"save_report"				: "Guardar reporte"
 		},
 
 		"info_message": {
@@ -538,7 +539,8 @@
 		"success_message": {
 			"paid"							: "¡Acaba de recibir nuevos fondos en su cuenta!",
 			"purchased"						: "¡Acabas de comprar el paquete!",
-			"report_unlocked"				: "El desbloqueo fue exitoso, ¡disfruta de las estadísticas!"
+			"report_unlocked"				: "El desbloqueo fue exitoso, ¡disfruta de las estadísticas!",
+			"report_saved"					: "Se ha guardado exitosamente, ¡disfruta de las estadísticas!"
 		}
 	},
 

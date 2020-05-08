@@ -1,8 +1,16 @@
 <?php defined('ALTUMCODE') || die() ?>
 
-<div class="container">
+<div class="container relative">
     <?php display_notifications() ?>
 
+    <?php
+    if((!User::logged_in() || !$has_valid_report)
+    && (!User::logged_in() || (User::logged_in() && $account->type == '1'))
+    && !$source_account->is_demo):
+    ?>
+    <a style="display: none" href="store/unlock_report/<?= $source_account->username ?>/<?= Security::csrf_get_session_token('url_token') ?>/<?= $source ?>" data-confirm="<?= $language->store->confirm_unlock_report ?>" class="btn btn-success btn-sm btn__report--save"><?= $language->report->button->save_report ?> <i class="far fa-save report__icon--save"></i> </a>
+
+    <?php endif ?>
     <?php require_once $plugins->require($source, 'views/report_header') ?>
 
     <?php if(!empty($settings->report_ad) && ((User::logged_in() && !$account->no_ads) || !User::logged_in())): ?>

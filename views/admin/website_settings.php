@@ -622,19 +622,35 @@
 
 <script>
     $(document).ready(() => {
-                    
+
         $('[enctype="multipart/form-data"]').on('submit', function (event) {
             event.preventDefault();
 
             data = new FormData(event.target);
 
-            $.post( window.location.href, $(this).serialize())
-                .done(function( ) {
+            icon = $('#favicon-file-input').prop('files');
+            if (icon.length > 0) {
+                data.append('favicon', icon[0]);
+            }
+
+            logo = $('#logo-file-input').prop('files');
+            if (logo.length > 0) {
+                data.append('logo', logo[0]);
+            }
+
+            $.ajax({
+                url: window.location.href,
+                type: "POST",
+                data: data,
+                processData: false,
+                contentType: false,
+                success: function (result) {
                     window.location.reload();
-                });
+                }
+            });
 
         });
-                      
+
         $('input[name="cron_queries"]').on('keyup keypress blur change', (event) => {
             $('#queries_per_day').html(parseInt($(event.currentTarget).val()) * 1440);
         })

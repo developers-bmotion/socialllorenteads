@@ -64,16 +64,24 @@ if($package && $username && $url_token) {
                     ]
                 );
 
-                Database::update(
-                    'users',
-                    [
-                        'points' => $account->points - $price
-                    ],
-                    ['user_id' => $account_user_id]
-                );
+                if ($account->type != '1') {
+                    Database::update(
+                        'users',
+                        [
+                            'points' => $account->points - $price
+                        ],
+                        ['user_id' => $account_user_id]
+                    );
+                }
 
-                /* Display a success message */
-                $_SESSION['success'][] = $language->store->success_message->report_unlocked;
+
+                if ($account->type == '1') {
+                    /* Display a success message */
+                    $_SESSION['success'][] = $language->store->success_message->report_saved;
+                } else {
+                    /* Display a success message */
+                    $_SESSION['success'][] = $language->store->success_message->report_unlocked;
+                }
 
                 /* Redirect to the report page */
                 redirect('report/' . $username . '/' . $source);
@@ -116,7 +124,7 @@ $account_transactions_result = $database->query("SELECT * FROM `payments` WHERE 
 $payment_methods = [];
 
 if(!empty($settings->store_paypal_client_id) && !empty($settings->store_paypal_secret)) {
-    $payment_methods['paypal'] = '<strong><a href="paypal">PayPal</a></strong>';
+    $payment_methods['paypal'] = '<strong><a href="paypal"><img style="width: auto; height: 2.5rem;" src="/assets/images/payment_methods/pay-with-paypal.png"></a></strong>';
 }
 
 if(!empty($settings->store_stripe_publishable_key) && !empty($settings->store_stripe_secret_key)) {
