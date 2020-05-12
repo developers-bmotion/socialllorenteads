@@ -4,12 +4,19 @@
     <div class="d-flex justify-content-between sticky-footer">
         <div class="col-md-9 px-0">
 
+            <div class="header_pdf" style="padding-bottom: 2rem">
+                <?php if($settings->logo != ''): ?>
+                    <img src="<?= $settings->url . UPLOADS_ROUTE . 'logo/' . $settings->logo ?>" style="height: 5rem;" class="img-fluid navbar-logo" alt="<?= $language->global->accessibility->logo_alt ?>" />
+                <?php else: ?>
+                    <?= $settings->title ?>
+                <?php endif ?>
+            </div>
             <div>
                 <span><?= 'Copyright &copy; ' . date('Y') . ' ' . $settings->title . '. All rights reserved. Product by <a href="#">Bmotion</a>' ?></span>
             </div>
 
             <?php if(count($languages) > 1): ?>
-            <span class="dropdown">
+            <span class="dropdown d-print-none">
                 <a class="dropdown-toggle clickable" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <?= $language->global->language ?>
                 </a>

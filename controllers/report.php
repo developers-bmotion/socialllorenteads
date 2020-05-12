@@ -91,4 +91,3 @@ add_event('head', function() {
     echo '<link rel="canonical" href="' . $settings->url . 'report/' . $source_account->username . '/' . $source . '" />';
 
 });
-

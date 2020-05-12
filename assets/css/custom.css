@@ -1206,3 +1206,22 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 .relative{
 	position: relative;
 }
+
+.header_pdf{
+	display: none;
+}
+
+.print .header_pdf{
+	display: block;
+}
+
+.print .btn-group,
+.print .alert.alert-info.mb-4.mt-2,
+.print .d-print-none{
+	display: none;
+}
+/*
+.print{
+
+}
+*/

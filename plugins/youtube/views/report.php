@@ -1,7 +1,7 @@
 <?php defined('ALTUMCODE') || die() ?>
 
     <div class="margin-bottom-6">
-        <div class="row">
+        <div class="row d-print-none">
             <div class="col">
                 <h5><?= $language->report->display->actions ?></h5>
             </div>
@@ -10,7 +10,7 @@
                 <div class="btn-group" role="group">
                     <?php if($settings->store_unlock_report_price == '0' || $has_valid_report || (User::logged_in() && $account->type == '1')): ?>
                         <a href="api?api_key=<?= $account->api_key ?? 0 ?>&username=<?= $source_account->username ?>&source=<?= $source ?>" class="btn btn-light" target="_blank"><i class="fab fa-fw fa-keycdn text-muted"></i> <?= $language->report->display->api_link ?></a>
-                        <button type="button" onclick="window.print()" class="btn btn-light"><i class="fa fa-fw fa-file-pdf text-muted"></i> <?= $language->report->display->pdf_link ?></button>
+                        <button type="button" onclick="printPdf()" class="btn btn-light"><i class="fa fa-fw fa-file-pdf text-muted"></i> <?= $language->report->display->pdf_link ?></button>
                     <?php endif ?>
                     <a href="compare/<?= $source ?>/<?= $source_account->username ?>" class="btn btn-light"><i class="fa fa-fw fa-users text-muted"></i> <?= $language->report->display->compare ?></a>
                 </div>
@@ -568,4 +568,3 @@
         }
     });
 </script>
-

@@ -1,6 +1,6 @@
 <?php defined('ALTUMCODE') || die() ?>
 
-<div class="container relative">
+<div class="container relative container--pdf" id="containerPdf">
     <?php display_notifications() ?>
 
     <?php
@@ -8,6 +8,13 @@
     && (!User::logged_in() || (User::logged_in() && $account->type == '1'))
     && !$source_account->is_demo):
     ?>
+    <div class="header_pdf" style="padding-bottom: 2rem">
+        <?php if($settings->logo != ''): ?>
+            <img src="<?= $settings->url . UPLOADS_ROUTE . 'logo/' . $settings->logo ?>" style="height: 5rem;" class="img-fluid navbar-logo" alt="<?= $language->global->accessibility->logo_alt ?>" />
+        <?php else: ?>
+            <?= $settings->title ?>
+        <?php endif ?>
+    </div>
     <a style="display: none" href="store/unlock_report/<?= $source_account->username ?>/<?= Security::csrf_get_session_token('url_token') ?>/<?= $source ?>" data-confirm="<?= $language->store->confirm_unlock_report ?>" class="btn btn-success btn-sm btn__report--save"><?= $language->report->button->save_report ?> <i class="far fa-save report__icon--save"></i> </a>
 
     <?php endif ?>
@@ -94,3 +101,12 @@
 
     <?php endif ?>
 </div>
+
+<script>
+    const container = document.querySelector("body");
+    var printPdf = (e) => {
+        container.classList.add("print");
+        window.print();
+        container.classList.remove("print");
+    };
+</script>
