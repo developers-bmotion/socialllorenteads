@@ -1220,6 +1220,19 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 .print .d-print-none{
 	display: none;
 }
+
+.print .footer__pdf{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.footer__img{
+	display: none;
+}
+.print .footer__img{
+    display: inline-flex;
+}
 /*
 .print{
 

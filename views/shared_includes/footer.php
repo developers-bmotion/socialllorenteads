@@ -2,15 +2,15 @@
 
 <footer class="container">
     <div class="d-flex justify-content-between sticky-footer">
-        <div class="col-md-9 px-0">
+        <div class="footer__img">
+            <?php if($settings->logo != ''): ?>
+                <img src="<?= $settings->url . UPLOADS_ROUTE . 'logo/logobmotion.jpg' ?>" style="height: 7rem;" class="img-fluid" alt="<?= $language->global->accessibility->logo_alt ?>" />
+            <?php else: ?>
+                <?= $settings->title ?>
+            <?php endif ?>
+        </div>
+        <div class="col-md-9 px-0 footer__pdf">
 
-            <div class="header_pdf" style="padding-bottom: 2rem">
-                <?php if($settings->logo != ''): ?>
-                    <img src="<?= $settings->url . UPLOADS_ROUTE . 'logo/' . $settings->logo ?>" style="height: 5rem;" class="img-fluid navbar-logo" alt="<?= $language->global->accessibility->logo_alt ?>" />
-                <?php else: ?>
-                    <?= $settings->title ?>
-                <?php endif ?>
-            </div>
             <div>
                 <span><?= 'Copyright &copy; ' . date('Y') . ' ' . $settings->title . '. All rights reserved. Product by <a href="#">Bmotion</a>' ?></span>
             </div>
@@ -45,7 +45,7 @@
                 }
 
                 ?>
-                <a href="<?= $link_url ?>" <?= $link_internal ? null : 'target="_blank"' ?> class="mr-3"><?= $bottom_menu->title ?></a>&nbsp;
+                <a href="<?= $link_url ?>" <?= $link_internal ? null : 'target="_blank"' ?> class="mr-3"><?= $bottom_menu->title ?></a>
             <?php endwhile ?>
 
         </div>
