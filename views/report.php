@@ -104,6 +104,8 @@
 
 <script>
     const container = document.querySelector("body");
+    //container.classList.add("print");
+
     var printPdf = (e) => {
         container.classList.add("print");
         window.print();

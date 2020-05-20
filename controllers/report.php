@@ -75,7 +75,9 @@ if(User::logged_in()) {
 Security::csrf_set_session_token('url_token', true);
 
 $controller_has_container = false;
-
+// echo "<pre>";
+// var_dump($GLOBALS);
+// echo "</pre>";
 /* Insert the needed libraries */
 add_event('head', function() {
     global $settings;
