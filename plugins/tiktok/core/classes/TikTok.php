@@ -1,4 +1,6 @@
 <?php
+
+use plugins\tiktok\models\DataTikTok;
 use Unirest\Request;
 
 class TikTok {
@@ -64,7 +66,7 @@ class TikTok {
     }
 
     /* Function to get the content of the requested url with a specific function */
-    public function get($path) {
+    public function get($path): DataTikTok {
 
         $url = $this->api_url . $path;
         $response = Request::get($url, $this->generate_headers());
@@ -88,7 +90,7 @@ class TikTok {
 
     }
 
-    public function parse($raw_body) {
+    public function parse($raw_body): DataTikTok {
 
         $data = explode('__NEXT_DATA__', $raw_body)[1];
         $data = explode('</script>', $data)[0];
@@ -107,9 +109,7 @@ class TikTok {
         die();
         */
 
-        $response = new StdClass();
-
-
+        $response = new DataTikTok();
 
         if(!$data || !$data->props || !$data->props->pageProps || !$data->props->pageProps->userData) {
             throw new Exception('Account with given username does not exist.', 404);

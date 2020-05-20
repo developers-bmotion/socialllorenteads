@@ -4,8 +4,10 @@
     <?php display_notifications() ?>
 
     <?php
-    if((!User::logged_in() || !$has_valid_report)
-    && (!User::logged_in() || (User::logged_in() && $account->type == '1'))
+    if(
+        (!User::logged_in() || !$has_valid_report)
+        && 
+        (User::logged_in() && $account->type == '1')
     && !$source_account->is_demo):
     ?>
     <div class="header_pdf" style="padding-bottom: 2rem">

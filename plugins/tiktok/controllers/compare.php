@@ -6,8 +6,8 @@ $custom_title = sprintf($language->compare->title_dynamic, $user_one, $user_two)
 
 /* Generate the chart logs */
 $logs = [];
-$logs_result_one = $database->query("SELECT * FROM `facebook_logs` WHERE `facebook_user_id` = '{$source_account_one->id}' ORDER BY `date` DESC LIMIT 15");
-$logs_result_two = $database->query("SELECT * FROM `facebook_logs` WHERE `facebook_user_id` = '{$source_account_two->id}' ORDER BY `date` DESC LIMIT 15");
+$logs_result_one = $database->query("SELECT * FROM `tiktok_logs` WHERE `tiktok_user_id` = '{$source_account_one->id}' ORDER BY `date` DESC LIMIT 15");
+$logs_result_two = $database->query("SELECT * FROM `tiktok_logs` WHERE `tiktok_user_id` = '{$source_account_two->id}' ORDER BY `date` DESC LIMIT 15");
 
 while($log = $logs_result_one->fetch_assoc()) {
 
@@ -15,7 +15,7 @@ while($log = $logs_result_one->fetch_assoc()) {
 
     $logs[$date][$log['username']] = [
         'likes'                     => $log['likes'],
-        'followers'        => $log['followers']
+        'followers'        => $log['fans']
     ];
 }
 
@@ -25,7 +25,7 @@ while($log = $logs_result_two->fetch_assoc()) {
 
     $logs[$date][$log['username']] = [
         'likes'                     => $log['likes'],
-        'followers'        => $log['followers']
+        'followers'        => $log['fans']
     ];
 }
 

@@ -13,13 +13,13 @@
             "likes"                     : "Likes",
             "likes_per_day"             : "%s likes /day",
             "likes_chart"               : "Likes Evolution Chart",
-            "followers_chart"           : "Followers Evolution Chart",
-            "followers"                 : "Followers",
-            "followers_per_day"         : "%s followers /day",
+            "followers_chart"           : "Fans Evolution Chart",
+            "followers"                 : "Fans",
+            "followers_per_day"         : "%s fans /day",
             "average_likes"             : "Average Likes",
-            "average_followers"         : "Average Followers",
+            "average_followers"         : "Average Fans",
             "type"                      : "Type",
-            "verified"                  : "Facebook Verified Page"
+            "verified"                  : "TikTok Verified Page"
         },
 
         "error_message": {
@@ -28,19 +28,19 @@
     },
 
     "compare": {
-        "title_dynamic"					: "Compare %s with %s Facebook Pages",
-        "header"						: "Compare Facebook Accounts",
-        "header_help"					: "Here you can input two facebook accounts that you have access to and you can compare and analyze their statistics side by side.",
+        "title_dynamic"					: "Compare %s with %s TikTok Pages",
+        "header"						: "Compare TikTok Accounts",
+        "header_help"					: "Here you can input two TikTok accounts that you have access to and you can compare and analyze their statistics side by side.",
 
         "display": {
             "compare_text"				: "vs",
-            "search_input_placeholder"	: "Facebook Page",
+            "search_input_placeholder"	: "TikTok Page",
             "statistics"				: "Statistics Comparison",
             "view_report"				: "View Report",
-            "followers"		            : "Followers",
+            "followers"		            : "Fans",
             "likes"     				: "Likes",
 
-            "followers_chart"           : "Followers Evolution Chart",
+            "followers_chart"           : "Fans Evolution Chart",
             "likes_chart"			    : "Likes Evolution Chart"
         }
 
@@ -56,13 +56,13 @@
     },
 
     "admin_website_statistics": {
-        "header"                        : "Facebook Generated Statistics",
+        "header"                        : "TikTok Generated Statistics",
         "checked_users"                 : "Total Checked Accounts",
         "updated_logs"                  : "Total Generated Logs"
     },
 
     "admin_users_management": {
-        "title"							: "Facebook Users Management",
+        "title"							: "TikTok Users Management",
         "menu"							: "FB Users",
 
         "table": {
@@ -92,12 +92,12 @@
         "title_minus"					: "%s has lost %s likes",
 
         "content": {
-            "header"					: "Report for %s's facebook page",
+            "header"					: "Report for %s's TikTok page",
             "text_one"					: "Here is an overall view of what happened to the account from <strong>%s</strong> to <strong>%s</strong>.",
             "previous"					: "Previous",
             "latest"					: "Latest",
             "likes"					    : "Likes",
-            "followers"		            : "Followers",
+            "followers"		            : "Fans",
             "button"					: "View Full Report"
         }
     }

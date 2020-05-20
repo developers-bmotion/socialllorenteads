@@ -115,7 +115,7 @@
                     <td><?= $log_date_name ?></td>
                     <td><?= nr($log['likes']) ?></td>
                     <td><?= colorful_number($likes_difference) ?></td>
-                    <td><?= nr($log['followers']) ?></td>
+                    <td><?= nr($log['fans']) ?></td>
                     <td><?= colorful_number($followers_difference) ?></td>
                 </tr>
             <?php endfor ?>

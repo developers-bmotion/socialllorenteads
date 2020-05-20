@@ -23,7 +23,7 @@
                 <?php endif ?>
 
                 <?php if(User::logged_in()): ?>
-                    <a href="#" id="favorite" onclick="return favorite(event)" data-id="<?= $source_account->id ?>" data-source="facebook" class="align-self-center ml-3 card-link text-dark favorite-badge">
+                    <a href="#" id="favorite" onclick="return favorite(event)" data-id="<?= $source_account->id ?>" data-source="tiktok" class="align-self-center ml-3 card-link text-dark favorite-badge">
                         <?= $is_favorited ? $language->report->display->remove_favorite : $language->report->display->add_favorite ?>
                     </a>
                 <?php endif ?>

@@ -19,4 +19,3 @@ foreach($plugins->plugins as $plugin_identifier => $value) {
     }
 
 }
-

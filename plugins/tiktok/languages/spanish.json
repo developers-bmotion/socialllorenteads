@@ -6,18 +6,18 @@
     },
 
     "report": {
-        "title"							: "%s Facebook Report",
+        "title"							: "%s Tiktok Report",
 
         "display": {
             "username"                  : "Username",
             "likes"                     : "Likes",
             "likes_per_day"             : "%s likes /day",
             "likes_chart"               : "Likes Evolution Chart",
-            "followers_chart"           : "Followers Evolution Chart",
-            "followers"                 : "Followers",
-            "followers_per_day"         : "%s followers /day",
+            "followers_chart"           : "Fans Evolution Chart",
+            "followers"                 : "Fans",
+            "followers_per_day"         : "%s fans /day",
             "average_likes"             : "Average Likes",
-            "average_followers"         : "Average Followers",
+            "average_followers"         : "Average Fans",
             "type"                      : "Type",
             "verified"                  : "Facebook Verified Page"
         },
@@ -37,10 +37,10 @@
             "search_input_placeholder"	: "Facebook Page",
             "statistics"				: "Statistics Comparison",
             "view_report"				: "View Report",
-            "followers"		            : "Followers",
+            "followers"		            : "Fans",
             "likes"     				: "Likes",
 
-            "followers_chart"           : "Followers Evolution Chart",
+            "followers_chart"           : "Fans Evolution Chart",
             "likes_chart"			    : "Likes Evolution Chart"
         }
 
@@ -97,7 +97,7 @@
             "previous"					: "Previous",
             "latest"					: "Latest",
             "likes"					    : "Likes",
-            "followers"		            : "Followers",
+            "followers"		            : "Fans",
             "button"					: "View Full Report"
         }
     }

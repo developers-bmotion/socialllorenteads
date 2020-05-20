@@ -14,9 +14,9 @@ if($type && $type == 'delete') {
     if(empty($_SESSION['error'])) {
         $database->query("DELETE FROM `facebook_users` WHERE `id` = {$facebook_user_id}");
         $database->query("DELETE FROM `facebook_logs` WHERE `facebook_user_id` = {$facebook_user_id}");
-        $database->query("DELETE FROM `favorites` WHERE `source_user_id` = {$facebook_user_id} AND `source` = 'FACEBOOK'");
-        $database->query("DELETE FROM `unlocked_reports` WHERE source_user_id = {$facebook_user_id} AND `source` = 'FACEBOOK'");
-        $database->query("DELETE FROM `email_reports` WHERE `source_user_id` = '{$facebook_user_id}' AND `source` = 'FACEBOOK'");
+        $database->query("DELETE FROM `favorites` WHERE `source_user_id` = {$facebook_user_id} AND `source` = 'TIKTOK'");
+        $database->query("DELETE FROM `unlocked_reports` WHERE source_user_id = {$facebook_user_id} AND `source` = 'TIKTOK'");
+        $database->query("DELETE FROM `email_reports` WHERE `source_user_id` = '{$facebook_user_id}' AND `source` = 'TIKTOK'");
 
         $_SESSION['success'][] = $language->global->success_message->basic;
     }

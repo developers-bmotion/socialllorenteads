@@ -1,10 +1,13 @@
 <?php
 defined('ALTUMCODE') || die();
 
+if ($user[0] !== '@') {
+    $user = '@'.$user;
+}
 /* We need to check if the user already exists in our database */
-$source_account = Database::get('*', 'facebook_users', ['username' => $user]);
+$source_account = Database::get('*', 'tiktok_users', ['username' => $user]);
 
-if(true || $refresh || !$source_account || ($source_account && (new \DateTime())->modify('-'.$settings->facebook_check_interval.' hours') > (new \DateTime($source_account->last_check_date)))) {
+if( $refresh || !$source_account || ($source_account && (new \DateTime())->modify('-'.$settings->facebook_check_interval.' hours') > (new \DateTime($source_account->last_check_date)))) {
 
 
     $tiktok = new TikTok();
@@ -117,7 +120,7 @@ if(true || $refresh || !$source_account || ($source_account && (new \DateTime())
     $data = $stmt->execute();
     $stmt->close();
 
-    echo json_encode($data);
+    //echo json_encode($data);
 
 
     /* Retrieve the just created / updated row */
@@ -168,9 +171,9 @@ if($date_start && $date_end) {
     $date_start_query = (new \DateTime($date_start))->format('Y-m-d H:i:s');
     $date_end_query = (new \DateTime($date_end))->modify('+1 day')->format('Y-m-d H:i:s');
 
-    $logs_result = $database->query("SELECT * FROM `facebook_logs` WHERE `facebook_user_id` = '{$source_account->id}' AND (`date` BETWEEN '{$date_start_query}' AND '{$date_end_query}')  ORDER BY `date` DESC");
+    $logs_result = $database->query("SELECT * FROM `tiktok_logs` WHERE `tiktok_user_id` = '{$source_account->id}' AND (`date` BETWEEN '{$date_start_query}' AND '{$date_end_query}')  ORDER BY `date` DESC");
 } else {
-    $logs_result = $database->query("SELECT * FROM `facebook_logs` WHERE `facebook_user_id` = '{$source_account->id}' ORDER BY `date` DESC LIMIT 15");
+    $logs_result = $database->query("SELECT * FROM `tiktok_logs` WHERE `tiktok_user_id` = '{$source_account->id}' ORDER BY `date` DESC LIMIT 15");
 }
 
 
@@ -192,11 +195,11 @@ $total_new = [
 for($i = 0; $i < count($logs); $i++) {
     $logs_chart['labels'][] = (new \DateTime($logs[$i]['date']))->format($language->global->date->datetime_format);
     $logs_chart['likes'][] = $logs[$i]['likes'];
-    $logs_chart['followers'][] = $logs[$i]['followers'];
+    $logs_chart['followers'][] = $logs[$i]['fans'];
 
     if($i != 0) {
         $total_new['likes'][] = $logs[$i]['likes'] - $logs[$i - 1]['likes'];
-        $total_new['followers'][] = $logs[$i]['followers'] - $logs[$i - 1]['followers'];
+        $total_new['followers'][] = $logs[$i]['fans'] - $logs[$i - 1]['fans'];
     }
 }
 
@@ -223,5 +226,5 @@ add_event('title', function() {
     global $user;
     global $language;
 
-    $page_title = sprintf($language->facebook->report->title, $user);
+    $page_title = sprintf($language->tiktok->report->title, $user);
 });

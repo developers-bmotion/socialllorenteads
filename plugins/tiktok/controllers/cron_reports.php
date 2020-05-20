@@ -1,11 +1,14 @@
 <?php
+
+use plugins\tiktok\models\DataTikTok;
+
 defined('ALTUMCODE') || die();
 
 /* We need to get the next users that we are going to check */
 if($settings->store_unlock_report_price == '0' || ($settings->store_unlock_report_price != '0' && $settings->cron_mode == 'ALL')) {
     $result = $database->query("
         SELECT `username`, `name`, `last_check_date`, `id`
-        FROM `facebook_users`
+        FROM `tiktok_users`
         WHERE TIMESTAMPDIFF(HOUR, `last_check_date`, '{$date}') > {$settings->facebook_check_interval} 
         ORDER BY `last_check_date` ASC
         LIMIT {$settings->cron_queries}
@@ -13,16 +16,16 @@ if($settings->store_unlock_report_price == '0' || ($settings->store_unlock_repor
 } else if($settings->store_unlock_report_price != '0') {
     $result = $database->query("
         SELECT  
-        	DISTINCT `facebook_users`.`username`, 
-        	`facebook_users`.`name`, 
-        	`facebook_users`.`last_check_date`, 
-        	`facebook_users`.`id`
-        FROM `facebook_users` 
-        LEFT JOIN `unlocked_reports` ON `unlocked_reports`.`source_user_id` = `facebook_users`.`id`
+        	DISTINCT `tiktok_users`.`username`, 
+        	`tiktok_users`.`name`, 
+        	`tiktok_users`.`last_check_date`, 
+        	`tiktok_users`.`id`
+        FROM `tiktok_users` 
+        LEFT JOIN `unlocked_reports` ON `unlocked_reports`.`source_user_id` = `tiktok_users`.`id`
         WHERE 
-        	TIMESTAMPDIFF(HOUR, `facebook_users`.`last_check_date`, '{$date}') > {$settings->facebook_check_interval}
-        	AND `unlocked_reports`.`source` = 'FACEBOOK'
-        ORDER BY `facebook_users`.`last_check_date` ASC
+        	TIMESTAMPDIFF(HOUR, `tiktok_users`.`last_check_date`, '{$date}') > {$settings->facebook_check_interval}
+        	AND `unlocked_reports`.`source` = 'TIKTOK'
+        ORDER BY `tiktok_users`.`last_check_date` ASC
         LIMIT {$settings->cron_queries}
     ");
 }
@@ -30,19 +33,20 @@ if($settings->store_unlock_report_price == '0' || ($settings->store_unlock_repor
 
 /* Iterate through the results */
 while($source_account = $result->fetch_object()) {
-    if(DEBUG) { echo 'Facebook Account Check: '; print_r($source_account); echo '<br />'; }
+    if(DEBUG) { echo 'TIKTOK Account Check: '; print_r($source_account); echo '<br />'; }
 
     $user = $source_account->username;
 
-    $facebook = new Facebook();
+    $tiktok = new TikTok();
 
     /* Set proxy if needed */
     if($is_proxy_request) {
-        $facebook::set_proxy($is_proxy_request);
+        $tiktok::set_proxy($is_proxy_request);
     }
 
     try {
-        $source_account_data = $facebook->get($user);
+        $source_account_data = new DataTikTok();
+        $source_account_data = $tiktok->get($user);
     } catch (Exception $error) {
         $error_message = $error->getMessage();
 
@@ -57,7 +61,7 @@ while($source_account = $result->fetch_object()) {
 
         /* Update the user so it will not get checked again until it's time comes */
         Database::update(
-            'facebook_users',
+            'tiktok_users',
             ['last_check_date' => $date],
             ['id' => $source_account->id]
         );
@@ -68,11 +72,11 @@ while($source_account = $result->fetch_object()) {
         /* If the account is not existing anymore, remove it */
         if($error->getCode() == 404) {
 
-            $database->query("DELETE FROM `facebook_users` WHERE `id` = '{$source_account->id}'");
-            $database->query("DELETE FROM `facebook_logs` WHERE `facebook_user_id` = '{$source_account->id}'");
-            $database->query("DELETE FROM `favorites` WHERE `source_user_id` = '{$source_account->id}' AND `source` = 'FACEBOOK'");
-            $database->query("DELETE FROM `email_reports` WHERE `source_user_id` = '{$source_account->id}' AND `source` = 'FACEBOOK'");
-            $database->query("DELETE FROM `unlocked_reports` WHERE source_user_id = {$source_account->id} AND `source` = 'FACEBOOK'");
+            $database->query("DELETE FROM `tiktok_users` WHERE `id` = '{$source_account->id}'");
+            $database->query("DELETE FROM `tiktok_logs` WHERE `tiktok_user_id` = '{$source_account->id}'");
+            $database->query("DELETE FROM `favorites` WHERE `source_user_id` = '{$source_account->id}' AND `source` = 'TIKTOK'");
+            $database->query("DELETE FROM `email_reports` WHERE `source_user_id` = '{$source_account->id}' AND `source` = 'TIKTOK'");
+            $database->query("DELETE FROM `unlocked_reports` WHERE source_user_id = {$source_account->id} AND `source` = 'TIKTOK'");
 
             if(DEBUG) { echo 'User ' . $user . ' was deleted from the database beacause it does not exist anymore'; echo '<br />'; }
 
@@ -96,30 +100,25 @@ while($source_account = $result->fetch_object()) {
     /* Vars to be added & used */
     $source_account_new = new StdClass();
     $source_account_new->username = $user;
-    $source_account_new->name = $source_account_data->name;
-    $source_account_new->likes = $source_account_data->likes;
-    $source_account_new->followers = $source_account_data->followers;
-    $source_account_new->profile_picture_url = $source_account_data->profile_picture_url;
+    $source_account_new->name = $source_account_data->user->name;
+    $source_account_new->likes = $source_account_data->user->heart;
+    $source_account_new->followers = $source_account_data->user->fans;
+    $source_account_new->profile_picture_url = $source_account_data->user->coversMedium[0];
     $source_account_new->is_verified = (int) $source_account_data->is_verified;
 
-    /* Get extra details from last media */
-    $details = [
-        'type'  => $source_account_data->type
-    ];
-    $details = json_encode($details);
+    $details = base64_encode($source_account_data->user->signature);
 
 
     /* Update the user main data */
-    $stmt = $database->prepare("UPDATE `facebook_users` SET
+    $stmt = $database->prepare("UPDATE `tiktok_users` SET
         `name` = ?,
-        `likes` = ?,
-        `followers` = ?,
+        `heart` = ?,
+        `fans` = ?,
         `details` = ?,
         `profile_picture_url` = ?,
         `is_verified` = ?,
         `last_check_date` = ?,
         `last_successful_check_date` = ?
-        
         WHERE `id` = ?
     ");
     $stmt->bind_param('sssssssss',
@@ -138,10 +137,10 @@ while($source_account = $result->fetch_object()) {
 
 
     /* Retrieve the just created / updated row */
-    $source_account = Database::get('*', 'facebook_users', ['id' => $source_account->id]);
+    $source_account = Database::get('*', 'tiktok_users', ['id' => $source_account->id]);
 
     /* Get the current day log */
-    $log = $database->query("SELECT * FROM `facebook_logs` WHERE `facebook_user_id` = '{$source_account->id}' ORDER BY `id` DESC")->fetch_object();
+    $log = $database->query("SELECT * FROM `tiktok_logs` WHERE `tiktok_user_id` = '{$source_account->id}' ORDER BY `id` DESC")->fetch_object();
 
     if($log) {
         $current_date = (new \DateTime())->format('Y-m-d');
@@ -155,15 +154,15 @@ while($source_account = $result->fetch_object()) {
                 $is_generated = 1;
 
                 $spread = [
-                    'followers' => floor($log->followers + $i * (($source_account->followers - $log->followers) / $days_difference)),
-                    'likes' => floor($log->likes + $i * (($source_account->likes - $log->likes) / $days_difference)),
+                    'followers' => floor($log->fans + $i * (($source_account->fans - $log->fans) / $days_difference)),
+                    'likes' => floor($log->likes + $i * (($source_account->heart - $log->likes) / $days_difference)),
                     'date' => (new \DateTime($log->date))->modify('+' . $i . ' days')->format('Y-m-d H:i:s')
                 ];
 
-                $stmt = $database->prepare("INSERT INTO `facebook_logs` (
-                    `facebook_user_id`,
+                $stmt = $database->prepare("INSERT INTO `tiktok_logs` (
+                    `tiktok_user_id`,
                     `username`,
-                    `followers`,
+                    `fans`,
                     `likes`,
                     `date`
                 ) VALUES (?, ?, ?, ?, ?)");
@@ -186,10 +185,10 @@ while($source_account = $result->fetch_object()) {
         if($days_difference == 0) {
 
             Database::update(
-                'facebook_logs',
+                'tiktok_logs',
                 [
-                    'followers' => $source_account->followers,
-                    'likes' => $source_account->likes,
+                    'fans' => $source_account->fans,
+                    'likes' => $source_account->heart,
                     'date' => $date
                 ],
                 ['id' => $log->id]
@@ -201,18 +200,18 @@ while($source_account = $result->fetch_object()) {
     /* If no log is existing in the current day, insert it  */
     if(!$log || ($log && $days_difference > 0)) {
 
-        $stmt = $database->prepare("INSERT INTO `facebook_logs` (
-            `facebook_user_id`,
+        $stmt = $database->prepare("INSERT INTO `tiktok_logs` (
+            `tiktok_user_id`,
             `username`,
-            `followers`,
+            `fans`,
             `likes`,
             `date`
         ) VALUES (?, ?, ?, ?, ?)");
         $stmt->bind_param('sssss',
             $source_account->id,
             $source_account->username,
-            $source_account->followers,
-            $source_account->likes,
+            $source_account->fans,
+            $source_account->heart,
             $date
         );
         $stmt->execute();
