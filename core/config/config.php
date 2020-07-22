@@ -6,5 +6,6 @@ $config = [
     'database_username'    => 'forge',
     'database_password'    => '8xaGFxCBCZlU0rYNnhNI',
     'database_name'        => 'social',
-    'url'                  => 'https://social.llorenteads.com/'
+    'url'                  => 'https://social.llorenteads.com/',
+    'key_scraper'          => 'a23667ae8dfbbbc2b8a9fc21cc645fae'
 ];
