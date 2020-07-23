@@ -1093,7 +1093,7 @@
 
 		"table": {
 			"username"					: "Nombre de usuario",
-			"actions"					: "",
+			"actions"					: "opciones",
 			"is_featured"				: "Es destacado",
 			"source"					: "Fuente"
 		},

@@ -2,156 +2,156 @@
     "global": {
         "name"                          : "Instagram",
         "icon"                          : "fab fa-fw fa-instagram",
-        "search_placeholder"            : "Enter instagram username or profile link.."
+        "search_placeholder"            : "Ingrese nombre de usuario de instagram o enlace de perfil.."
     },
 
     "report": {
-        "title"							: "@%s Instagram Report",
+        "title"							: "@%s Informe de Instagram",
 
         "display": {
-            "username"					: "Username",
-            "followers_per_day"			: "%s followers /day",
-            "uploads_per_day"			: "%s uploads /day",
-            "followers"					: "Followers",
-            "following"					: "Following",
-            "uploads"					: "Uploads",
-            "instagram_id"				: "Instagram ID",
+            "username"					: "Nombre de usuario",
+            "followers_per_day"			: "%s seguidores / día",
+            "uploads_per_day"			: "%s subidas / día",
+            "followers"					: "Seguidores",
+            "following"					: "Siguiendo",
+            "uploads"					: "Subidas",
+            "instagram_id"				: "ID de Instagram",
             "profile_engagement"		: "Profile Engagement",
             "engagement_rate"			: "Engagement",
-            "engagement_rate_help"		: "The engagement rate is the number of active likes / comments on each post",
-            "average_likes"				: "Average Likes",
-            "average_likes_help"		: "Average likes based on the last %s posts",
-            "average_comments"			: "Average Comments",
-            "average_comments_help"		: "Average comments based on the last %s posts",
-            "top_mentions"				: "Top @Mentions",
-            "top_mentions_help"			: "Top mentions from the last %s posts",
-            "top_posts"					: "Top Posts",
-            "top_posts_help"			: "Top posts from the last %s posts",
-            "mention_use"				: "Used in %s out of %s posts",
+            "engagement_rate_help"		: "La tasa de interacción es el número de me gusta / comentarios activos en cada publicación",
+            "average_likes"				: "Promedio de Me gusta",
+            "average_likes_help"		: "Promedio de Me gusta basado en las últimas %s publicaciones",
+            "average_comments"			: "Comentarios promedio",
+            "average_comments_help"		: "Promedio de comentarios basados ​​en las últimas %s publicaciones",
+            "top_mentions"				: "Top @Menciones",
+            "top_mentions_help"			: "Las principales menciones de las últimas %s publicaciones",
+            "top_posts"					: "Publicaciones principales",
+            "top_posts_help"			: "Publicaciones principales de las últimas %s publicaciones",
+            "mention_use"				: "Utilizado en %s de %s publicaciones",
             "top_hashtags"				: "Top #Hashtags",
-            "top_hashtags_help"			: "Top hashtags from the last %s posts",
-            "hashtag_use"				: "Used in %s out of %s posts",
-            "engagement"				: "Other Average Engagement",
-            "media_summary"				: "Media Stats Summary",
-            "media_summary_help"		: "Showing last %s entries.",
-            "media_created_date"		: "Posted On",
-            "media_media_url"			: "View Post",
-            "media_comments"			: "Comments",
-            "media_likes"				: "Likes",
-            "media_caption"				: "Caption",
-            "media_stats_chart"			: "Media Stats Chart",
-            "media_caption_count"		: "Caption Word Count",
+            "top_hashtags_help"			: "Principales hashtags de las últimas %s publicaciones",
+            "hashtag_use"				: "Utilizado en %s de %s publicaciones",
+            "engagement"				: "Otro compromiso promedio",
+            "media_summary"				: "Resumen de estadísticas de medios",
+            "media_summary_help"		: "Mostrando las últimas %s entradas.",
+            "media_created_date"		: "Publicado en",
+            "media_media_url"			: "Ver publicación",
+            "media_comments"			: "Comentarios",
+            "media_likes"				: "likes",
+            "media_caption"				: "Título",
+            "media_stats_chart"			: "Gráfico de estadísticas de contenido",
+            "media_caption_count"		: "Recuento de palabras de subtítulos",
             "media_type": {
-                "image"					: "Image",
-                "sidecar"				: "Carousel",
+                "image"					: "Imagen",
+                "sidecar"				: "Carrusel",
                 "video"					: "Video"
             },
 
-            "average_engagement_rate_chart_summary"			: "Average Engagement Rate Chart",
-            "average_engagement_rate_chart_summary_help"	: "Each value in this chart is equal to the Average Engagement Rate of the account in that specific day.",
-            "average_engagement_rate"	: "Average Engagement Rate",
-            "average_engagement_rate_short"	                : "Avg. ER",
+            "average_engagement_rate_chart_summary"			: "Tabla de tasa de participación promedio",
+            "average_engagement_rate_chart_summary_help"	: "Cada valor en este gráfico es igual a la tasa de participación promedio de la cuenta en ese día específico.",
+            "average_engagement_rate"	: "Tasa de participación promedio",
+            "average_engagement_rate_short"	                : "Promedio ER",
 
-            "view_profile"				: "IG Profile",
-            "visit_website"				: "Website",
-            "followers_chart"			: "Followers evolution chart",
-            "following_chart"			: "Following evolution chart",
-            "uploads_chart"				: "Uploads evolution chart",
-            "average_engagement_rate_chart"	: "Average Engagement Rate",
-            "private"					: "Private Account",
-            "verified"					: "Instagram Verified"
+            "view_profile"				: "Perfil IG",
+            "visit_website"				: "Sitio web",
+            "followers_chart"			: "Gráfico de evolución de seguidores",
+            "following_chart"			: "Siguiendo el gráfico de evolución",
+            "uploads_chart"				: "Sube el gráfico de evolución",
+            "average_engagement_rate_chart"	: "Tasa de participación promedio",
+            "private"					: "Cuenta privada",
+            "verified"					: "Instagram verificado"
         },
 
         "error_message": {
-            "low_followers"				: "We are sorry but we only add accounts to our database with %s or more followers..",
-            "not_found"					: "This account was not found."
+            "low_followers"				: "Lo sentimos pero solo agregamos cuentas a nuestra base de datos con %s o más seguidores..",
+            "not_found"					: "Esta cuenta no se encontró."
         }
     },
 
     "compare": {
-        "title_dynamic"					: "Compare %s with %s Instagram",
-        "header"						: "Compare YouTube Accounts",
-        "header_help"					: "Here you can input two YouTube Channels that you have access to and you can compare and analyze their statistics side by side.",
+        "title_dynamic"					: "Comparar %s con %s Instagram",
+        "header"						: "Comparar cuentas de YouTube",
+        "header_help"					: "Aquí puede ingresar dos canales de YouTube a los que tiene acceso y puede comparar y analizar sus estadísticas una al lado de la otra.",
 
         "display": {
             "compare_text"				: "vs",
-            "search_input_placeholder"	: "Instagram Username",
-            "statistics"				: "Statistics Comparison",
-            "view_report"				: "View Report",
-            "top_posts"					: "Top Posts",
-            "top_posts_help"			: "Top posts from the last %s posts of both accounts.",
-            "engagement_rate"			: "Engagement Rate",
-            "engagement_rate_help"		: "The engagement rate is the number of active likes / comments on each post",
-            "average_likes"				: "Average Likes",
-            "average_likes_help"		: "Average likes based on the last %s posts",
-            "average_comments"			: "Average Comments",
-            "average_comments_help"		: "Average comments based on the last %s posts",
+            "search_input_placeholder"	: "Nombre de usuario de Instagram",
+            "statistics"				: "Comparación de estadísticas",
+            "view_report"				: "Vista del informe",
+            "top_posts"					: "Publicaciones principales",
+            "top_posts_help"			: "Publicaciones principales de las últimas %s publicaciones de ambas cuentas.",
+            "engagement_rate"			: "Tasa de participación",
+            "engagement_rate_help"		: "La tasa de interacción es el número de me gusta / comentarios activos en cada publicación",
+            "average_likes"				: "Me gusta promedio",
+            "average_likes_help"		: "Promedio de Me gusta basado en las últimas %s publicaciones",
+            "average_comments"			: "Comentarios promedio",
+            "average_comments_help"		: "Promedio de comentarios basados ​​en las últimas %s publicaciones",
 
-            "average_engagement_rate_chart" : "Average Engagement Rate Chart",
-            "followers_chart"			: "Followers Chart"
+            "average_engagement_rate_chart" : "Tabla de tasa de participación promedio",
+            "followers_chart"			: "Gráfico de seguidores"
         }
     },
 
     "admin_website_settings": {
         "input": {
-            "instagram_check_interval"			: "Check Interval ( Hours )",
-            "instagram_check_interval_help"		: "An account should be verified again after X hours",
-            "instagram_minimum_followers"		: "Minimum Followers",
-            "instagram_minimum_followers_help"	: "If the account does not meet the minimum followers, it won't be added to the database.",
-            "instagram_calculator_media_count"	: "Calculator Media Count",
-            "instagram_calculator_media_count_help" : "How many of the latest posts to process when refreshing a report. (Max 30)"
+            "instagram_check_interval"			: "Intervalo de verificación (horas)",
+            "instagram_check_interval_help"		: "Una cuenta debe verificarse nuevamente después de X horas",
+            "instagram_minimum_followers"		: "Seguidores mínimos",
+            "instagram_minimum_followers_help"	: "Si la cuenta no cumple con los seguidores mínimos, no se agregará a la base de datos.",
+            "instagram_calculator_media_count"	: "Conteo de medios de la calculadora",
+            "instagram_calculator_media_count_help" : "¿Cuántas de las últimas publicaciones para procesar al actualizar un informe. (Máx. 30)"
         }
     },
 
     "admin_website_statistics": {
-        "header"                        : "Instagram Generated Statistics",
-        "checked_users"                 : "Total Checked Accounts",
-        "checked_media"                 : "Total Media Checks",
-        "updated_logs"                  : "Total Generated Logs"
+        "header"                        : "Estadísticas generadas en Instagram",
+        "checked_users"                 : "Cuentas totales verificadas",
+        "checked_media"                 : "Verificaciones de medios totales",
+        "updated_logs"                  : "Total de registros generados"
     },
 
     "admin_users_management": {
-        "title"							: "Instagram Users Management",
-        "menu"							: "IG Users",
+        "title"							: "Gestión de usuarios de Instagram",
+        "menu"							: "Usuarios de IG",
 
         "table": {
-            "username"					: "Username",
-            "full_name"					: "Name",
-            "last_check_date"			: "Last Check",
-            "actions"					: "Actions"
+            "username"					: "Nombre de usuario",
+            "full_name"					: "Nombre",
+            "last_check_date"			: "Última revisión",
+            "actions"					: "Acciones"
         },
 
         "tooltip": {
-            "private"					: "Private IG",
-            "demo"						: "Demo User",
-            "verified"					: "Verified Account",
-            "out"						: "View IG Profile"
+            "private"					: "IG privado",
+            "demo"						: "Usuario de demostración",
+            "verified"					: "Cuenta verificada",
+            "out"						: "Ver perfil IG"
         },
 
         "info_message": {
-            "confirm_delete"			: "By deleting this IG User all the reports related to this user and all the logs will be deleted."
+            "confirm_delete"			: "Al eliminar este usuario IG, todos los informes relacionados con este usuario y todos los registros se eliminarán."
         },
 
         "display": {
-            "search_placeholder"		: "Search by instagram username or full account name..",
-            "instagram_users_import"	: "Import IG Users"
+            "search_placeholder"		: "Buscar por nombre de usuario de instagram o nombre de cuenta completo..",
+            "instagram_users_import"	: "Importar usuarios IG"
         }
     },
 
     "email_report": {
-        "title_plus"					: "%s has gained %s followers",
-        "title_minus"					: "%s has lost %s followers",
+        "title_plus"					: "%s has ganado %s seguidores",
+        "title_minus"					: "%s has perdido %s seguidores",
 
         "content": {
-            "header"					: "Report for @%s instagram",
-            "text_one"					: "Here is an overall view of what happened to the account from <strong>%s</strong> to <strong>%s</strong>.",
-            "previous"					: "Previous",
-            "latest"					: "Latest",
-            "followers"					: "Followers",
-            "following"					: "Following",
-            "uploads"					: "Uploads",
-            "average_engagement_rate"	: "Average Engagement Rate",
-            "button"					: "View Full Report"
+            "header"					: "Informe para @%s instagram",
+            "text_one"					: "Aquí hay una vista general de lo que sucedió con la cuenta de <strong>%s </strong> a <strong>%s </strong>.",
+            "previous"					: "Anterior",
+            "latest"					: "Último",
+            "followers"					: "Seguidores",
+            "following"					: "Siguiendo",
+            "uploads"					: "Subidas",
+            "average_engagement_rate"	: "Tasa de participación promedio",
+            "button"					: "Ver informe completo"
         }
     }
 }
