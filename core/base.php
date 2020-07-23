@@ -2,6 +2,7 @@
 defined('ALTUMCODE') || die();
 
 require 'init.php';
+require_once 'core/classes/Proxy.php';
 
 /* Controller */
 require CONTROLLERS_ROUTE . $route . $controller . '.php';

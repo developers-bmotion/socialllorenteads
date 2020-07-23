@@ -2,6 +2,8 @@
 
 namespace Unirest;
 
+use Proxy;
+
 class Request
 {
     private static $cookie = null;
@@ -233,7 +235,12 @@ class Request
      */
     public static function get($url, $headers = array(), $parameters = null, $username = null, $password = null)
     {
-        return self::send(Method::GET, $url, $parameters, $headers, $username, $password);
+        if (strpos($url, 'instagram.com') !== false) {
+            $proxy = Proxy::getInstance();
+            return $proxy->getResponse($url, $headers);
+        } else {
+            return self::send(Method::GET, $url, $parameters, $headers, $username, $password);
+        }
     }
 
     /**

@@ -15,6 +15,7 @@
         "psr/cache": "1.0.1",
         "psr/log": "1.1.0",
         "raiym/instagram-php-scraper": "0.8.27",
-        "stripe/stripe-php": "7.0.2"
+        "stripe/stripe-php": "7.0.2",
+        "scraperapi/sdk": "dev-master"
     }
 }

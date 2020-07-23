@@ -814,6 +814,41 @@
         ]
     },
     {
+        "name": "scraperapi/sdk",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/acunniffe/scraperapi-php-sdk.git",
+            "reference": "0a220aea44420ceaef1a5764c0ac6147d426f8a6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/acunniffe/scraperapi-php-sdk/zipball/0a220aea44420ceaef1a5764c0ac6147d426f8a6",
+            "reference": "0a220aea44420ceaef1a5764c0ac6147d426f8a6",
+            "shasum": ""
+        },
+        "time": "2020-05-17T22:21:05+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "ScraperAPI\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scraper Team",
+                "email": "dan@scraperapi.com"
+            }
+        ],
+        "description": "SDK for using ScraperAPI"
+    },
+    {
         "name": "stripe/stripe-php",
         "version": "v7.0.2",
         "version_normalized": "7.0.2.0",

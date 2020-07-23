@@ -9,6 +9,7 @@ return array(
     'phpssdb\\' => array($vendorDir . '/phpfastcache/phpssdb/src/phpssdb'),
     'phpFastCache\\' => array($vendorDir . '/phpfastcache/phpfastcache/src/phpFastCache'),
     'Stripe\\' => array($vendorDir . '/stripe/stripe-php/lib'),
+    'ScraperAPI\\' => array($vendorDir . '/scraperapi/sdk/src'),
     'ReCaptcha\\' => array($vendorDir . '/google/recaptcha/src/ReCaptcha'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Cache\\' => array($vendorDir . '/psr/cache/src'),

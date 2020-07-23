@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9041a358458ffbf79fa7699f8017f97a
+class ComposerStaticInit9269b1cd4c4e4218999aa9bcb33a5fc6
 {
     public static $files = array (
         'c65d09b6820da036953a371c8c73a9b1' => __DIR__ . '/..' . '/facebook/graph-sdk/src/Facebook/polyfills.php',
@@ -19,6 +19,7 @@ class ComposerStaticInit9041a358458ffbf79fa7699f8017f97a
         'S' => 
         array (
             'Stripe\\' => 7,
+            'ScraperAPI\\' => 11,
         ),
         'R' => 
         array (
@@ -57,6 +58,10 @@ class ComposerStaticInit9041a358458ffbf79fa7699f8017f97a
         'Stripe\\' => 
         array (
             0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
+        ),
+        'ScraperAPI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/scraperapi/sdk/src',
         ),
         'ReCaptcha\\' => 
         array (
@@ -130,9 +135,9 @@ class ComposerStaticInit9041a358458ffbf79fa7699f8017f97a
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit9041a358458ffbf79fa7699f8017f97a::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit9041a358458ffbf79fa7699f8017f97a::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit9041a358458ffbf79fa7699f8017f97a::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9269b1cd4c4e4218999aa9bcb33a5fc6::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9269b1cd4c4e4218999aa9bcb33a5fc6::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit9269b1cd4c4e4218999aa9bcb33a5fc6::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
