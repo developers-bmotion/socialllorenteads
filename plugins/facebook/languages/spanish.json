@@ -2,103 +2,103 @@
     "global": {
         "name"                          : "Facebook",
         "icon"                          : "fab fa-fw fa-facebook",
-        "search_placeholder"            : "Enter facebook page username.."
+        "search_placeholder"            : "Ingrese el nombre de usuario de la página de Facebook.."
     },
 
     "report": {
-        "title"							: "%s Facebook Report",
+        "title"							: "%s Informe de Facebook",
 
         "display": {
-            "username"                  : "Username",
+            "username"                  : "Nombre de usuario",
             "likes"                     : "Likes",
-            "likes_per_day"             : "%s likes /day",
-            "likes_chart"               : "Likes Evolution Chart",
-            "followers_chart"           : "Followers Evolution Chart",
-            "followers"                 : "Followers",
-            "followers_per_day"         : "%s followers /day",
-            "average_likes"             : "Average Likes",
-            "average_followers"         : "Average Followers",
-            "type"                      : "Type",
-            "verified"                  : "Facebook Verified Page"
+            "likes_per_day"             : "%s me gusta / día",
+            "likes_chart"               : "Me gusta Gráfico de evolución",
+            "followers_chart"           : "Gráfico de evolución de seguidores",
+            "followers"                 : "Seguidores",
+            "followers_per_day"         : "%s seguidores / día",
+            "average_likes"             : "Me gusta promedio",
+            "average_followers"         : "Seguidores promedio",
+            "type"                      : "Tipo",
+            "verified"                  : "Página verificada de Facebook"
         },
 
         "error_message": {
-            "low_likes"                 : "We are sorry but we only add pages to our database with %s or more total likes.."
+            "low_likes"                 : "Lo sentimos, pero solo agregamos páginas a nuestra base de datos con %s o más me gusta total.."
         }
     },
 
     "compare": {
-        "title_dynamic"					: "Compare %s with %s Facebook Pages",
-        "header"						: "Compare Facebook Accounts",
-        "header_help"					: "Here you can input two facebook accounts that you have access to and you can compare and analyze their statistics side by side.",
+        "title_dynamic"					: "Comparar %s con %s páginas de Facebook",
+        "header"						: "Comparar cuentas de Facebook",
+        "header_help"					: "Aquí puede ingresar dos cuentas de Facebook a las que tiene acceso y puede comparar y analizar sus estadísticas una al lado de la otra.",
 
         "display": {
             "compare_text"				: "vs",
-            "search_input_placeholder"	: "Facebook Page",
-            "statistics"				: "Statistics Comparison",
-            "view_report"				: "View Report",
-            "followers"		            : "Followers",
+            "search_input_placeholder"	: "Pagina de Facebook",
+            "statistics"				: "Comparación de estadísticas",
+            "view_report"				: "Vista del informe",
+            "followers"		            : "Seguidores",
             "likes"     				: "Likes",
 
-            "followers_chart"           : "Followers Evolution Chart",
-            "likes_chart"			    : "Likes Evolution Chart"
+            "followers_chart"           : "Gráfico de evolución de seguidores",
+            "likes_chart"			    : "Me gusta Gráfico de evolución"
         }
 
     },
 
     "admin_website_settings": {
         "input": {
-            "facebook_check_interval"			: "Check Interval ( Hours )",
-            "facebook_check_interval_help"		: "An account should be verified again after X hours",
-            "facebook_minimum_likes"		    : "Minimum Likes",
-            "facebook_minimum_likes_help"	    : "If the account does not meet the minimum likes, it won't be added to the database."
+            "facebook_check_interval"			: "Intervalo de verificación (horas)",
+            "facebook_check_interval_help"		: "Una cuenta debe verificarse nuevamente después de X horas",
+            "facebook_minimum_likes"		    : "Me gusta mínimo",
+            "facebook_minimum_likes_help"	    : "Si la cuenta no cumple con los me gusta mínimos, no se agregará a la base de datos."
         }
     },
 
     "admin_website_statistics": {
-        "header"                        : "Facebook Generated Statistics",
-        "checked_users"                 : "Total Checked Accounts",
-        "updated_logs"                  : "Total Generated Logs"
+        "header"                        : "Estadísticas generadas en Facebook",
+        "checked_users"                 : "Cuentas totales verificadas",
+        "updated_logs"                  : "Total de registros generados"
     },
 
     "admin_users_management": {
-        "title"							: "Facebook Users Management",
-        "menu"							: "FB Users",
+        "title"							: "Gestión de usuarios de Facebook",
+        "menu"							: "Usuarios de FB",
 
         "table": {
-            "username"					: "Username",
-            "name"					    : "Name",
-            "last_check_date"			: "Last Check",
-            "actions"					: "Actions"
+            "username"					: "Nombre de usuario",
+            "name"					    : "Nombre",
+            "last_check_date"			: "Última revisión",
+            "actions"					: "Acciones"
         },
 
         "tooltip": {
-            "demo"						: "Demo User",
-            "out"						: "View FB Page",
-            "verified"                  : "Verified Page"
+            "demo"						: "Usuario de demostración",
+            "out"						: "Ver página FB",
+            "verified"                  : "Página verificada"
         },
 
         "info_message": {
-            "confirm_delete"			: "By deleting this FB User all the reports related to this user and all the logs will be deleted."
+            "confirm_delete"			: "Al eliminar este usuario de FB, todos los informes relacionados con este usuario y todos los registros se eliminarán."
         },
 
         "display": {
-            "search_placeholder"		: "Search by username or name.."
+            "search_placeholder"		: "Buscar por nombre de usuario o nombre.."
         }
     },
 
     "email_report": {
-        "title_plus"					: "%s has gained %s likes",
-        "title_minus"					: "%s has lost %s likes",
+        "title_plus"					: "%s ha ganado %s me gusta",
+        "title_minus"					: "%s ha perdido %s me gusta",
 
         "content": {
-            "header"					: "Report for %s's facebook page",
-            "text_one"					: "Here is an overall view of what happened to the account from <strong>%s</strong> to <strong>%s</strong>.",
-            "previous"					: "Previous",
-            "latest"					: "Latest",
+            "header"					: "Informe para la página de Facebook de %s's",
+            "text_one"					: "Aquí hay una vista general de lo que sucedió con la cuenta de <strong>%s</strong> a <strong>%s</strong>",
+            "previous"					: "Anterior",
+            "latest"					: "Último",
             "likes"					    : "Likes",
-            "followers"		            : "Followers",
-            "button"					: "View Full Report"
+            "followers"		            : "Seguidores",
+            "button"					: "Ver informe completo"
         }
     }
 }
