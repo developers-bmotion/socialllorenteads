@@ -38,7 +38,7 @@ $emails_result = $database->query("
 
 
 /* If we have no results and the favorites system is enabled, try to find emails to send there too */
-if($emails_result->num_rows == 0 && $settings->email_reports_favorites) {
+if($emails_result && $emails_result->num_rows == 0 && $settings->email_reports_favorites) {
 
     $emails_result = $database->query("
             SELECT
@@ -71,13 +71,13 @@ if($emails_result->num_rows == 0 && $settings->email_reports_favorites) {
                 (`email_reports`.`date` IS NULL OR TIMESTAMPDIFF({$timestampdiff}, `email_reports`.`date`, '{$date}') > {$timestampdiff_compare})
                 AND `users`.`email_reports` = '1'
                 AND TIMESTAMPDIFF({$timestampdiff}, `tiktok_users`.`added_date`, '{$date}') > {$timestampdiff_compare}
-                AND `favorites`.`source` = 'TIKTOK'              
+                AND `favorites`.`source` = 'TIKTOK'
             LIMIT 1
         ");
 
 }
 
-while($result = $emails_result->fetch_object()) {
+while($emails_result && ($result = $emails_result->fetch_object())) {
 
     /* Get the previous log so that we can compare the current with the previous */
     $previous = $database->query("SELECT `likes`, `fans`, `date` FROM `tiktok_logs` WHERE `tiktok_user_id` = {$result->id} AND TIMESTAMPDIFF({$timestampdiff}, `date`, '{$result->last_check_date}') > {$timestampdiff_compare} ORDER BY `id` DESC LIMIT 1")->fetch_object();
