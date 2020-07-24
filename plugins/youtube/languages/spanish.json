@@ -2,122 +2,121 @@
     "global": {
         "name"                          : "YouTube",
         "icon"                          : "fab fa-fw fa-youtube",
-        "search_placeholder"            : "Enter youtube username or channel id.."
+        "search_placeholder"            : "Ingrese el nombre de usuario de YouTube o la identificación del canal.."
     },
 
     "report": {
-        "title"							: "%s YouTube Report",
+        "title"							: "%s Informe de YouTube",
 
         "display": {
-            "title"                     : "Title",
-            "subscribers"               : "Subscribers",
+            "title"                     : "Título",
+            "subscribers"               : "Suscriptores",
             "videos"                    : "Videos",
             "views"                     : "Views",
-            "subscribers_per_day"       : "%s Subscribers /day",
-            "videos_per_day"            : "%s Videos /day",
-            "views_per_day"             : "%s Views /day",
-            "subscribers_chart"         : "Subscribers Evolution Chart",
-            "views_videos_chart"        : "Views / Videos Evolution Chart",
-            "average_subscribers"       : "Average Subscribers",
-            "average_videos"            : "Average Videos",
-            "average_views"             : "Average Views",
+            "subscribers_per_day"       : "%s suscriptores / día",
+            "videos_per_day"            : "%s Videos / día",
+            "views_per_day"             : "%s Vistas / día",
+            "subscribers_chart"         : "Gráfico de evolución de suscriptores",
+            "views_videos_chart"        : "Gráfico de evolución de vistas / videos",
+            "average_subscribers"       : "Suscriptores promedio",
+            "average_videos"            : "Videos promedio",
+            "average_views"             : "Promedio de vistas",
             "extra"                     : "Extra",
-            "country"                   : "Country",
-            "created_date"              : "Created Date",
-            "last_videos"               : "Last Videos",
-            "last_videos_help"          : "Last uploaded videos from this youtube channel.",
-            "video_created_date"        : "Date",
-            "video_title"               : "Title",
+            "country"                   : "País",
+            "created_date"              : "Fecha de creación",
+            "last_videos"               : "Últimos videos",
+            "last_videos_help"          : "Últimos videos subidos desde este canal de YouTube.",
+            "video_created_date"        : "Fecha",
+            "video_title"               : "Título",
             "video_views"               : "Views",
             "video_likes"               : "Likes",
             "video_dislikes"            : "Dislikes",
-            "video_comments"            : "Comments",
-            "videos_stats_chart"        : "Videos Stats Chart"
+            "video_comments"            : "Comentarios",
+            "videos_stats_chart"        : "Tabla de estadísticas de videos"
         },
 
         "error_message": {
-            "low_subscribers"           : "We are sorry but we only channels to our database with %s or more total subscribers..",
-            "not_found"                 : "This YouTube Channel was not found."
+            "low_subscribers"           : "Lo sentimos, pero solo canalizamos a nuestra base de datos con %s o más suscriptores totales..",
+            "not_found"                 : "Este canal de YouTube no se encontró."
         }
     },
 
     "compare": {
-        "title_dynamic"					: "Compare %s with %s YouTube Channels",
-        "header"						: "Compare YouTube Accounts",
-        "header_help"					: "Here you can input two YouTube Channels that you have access to and you can compare and analyze their statistics side by side.",
+        "title_dynamic"					: "Comparar %s con %s canales de YouTube",
+        "header"						: "Comparar cuentas de YouTube",
+        "header_help"					: "Aquí puede ingresar dos canales de YouTube a los que tiene acceso y puede comparar y analizar sus estadísticas una al lado de la otra.",
 
         "display": {
             "compare_text"				: "vs",
-            "search_input_placeholder"	: "Channel Id / Username",
-            "statistics"				: "Statistics Comparison",
-            "view_report"				: "View Report",
-            "subscribers"               : "Subscribers",
+            "search_input_placeholder"	: "Id. De canal / nombre de usuario",
+            "statistics"				: "Comparación de estadísticas",
+            "view_report"				: "Vista del informe",
+            "subscribers"               : "Suscriptores",
             "videos"                    : "Videos",
             "views"                     : "Views",
-            "subscribers_chart"         : "Subscribers Evolution Chart",
-            "views_chart"			    : "Views Evolution Chart",
-            "videos_chart"			    : "Videos Evolution Chart"
+            "subscribers_chart"         : "Gráfico de evolución de suscriptores",
+            "views_chart"			    : "Vistas Gráfico de evolución",
+            "videos_chart"			    : "Tabla de evolución de videos"
         }
 
     },
 
     "admin_website_settings": {
         "input": {
-            "youtube_api_key"                   : "YouTube API Key",
-            "youtube_api_key_help"              : "Please refer to the <a href=\"https://altumcode.link/phpanalyzer-docs\">Documentation</a> to find out where to get the key.",
-            "youtube_check_interval"			: "Check Interval ( Hours )",
-            "youtube_check_interval_help"		: "An account should be verified again after X hours",
-            "youtube_minimum_subscribers"		: "Minimum Subscribers",
-            "youtube_minimum_subscribers_help"	: "If the account does not meet the minimum subscribers, it won't be added to the database.",
-            "youtube_check_videos"		        : "Check Videos (0-50)",
-            "youtube_check_videos_help"	        : "Check the last X amount of last uploaded videos of a channel. 0 is disabled and the maximum value is 50."
+            "youtube_api_key"                   : "Clave API de YouTube",
+            "youtube_api_key_help"              : "Consulte la <a href=\"https://altumcode.link/phpanalyzer-docs\"> Documentación </a> para averiguar dónde obtener la clave.",
+            "youtube_check_interval"			: "Intervalo de verificación (horas)",
+            "youtube_check_interval_help"		: "Una cuenta debe verificarse nuevamente después de X horas",
+            "youtube_minimum_subscribers"		: "Suscriptores mínimos",
+            "youtube_minimum_subscribers_help"	: "Si la cuenta no cumple con los suscriptores mínimos, no se agregará a la base de datos.",
+            "youtube_check_videos"		        : "Ver videos (0-50)",
+            "youtube_check_videos_help"	        : "Verifique la última X cantidad de los últimos videos subidos de un canal. 0 está deshabilitado y el valor máximo es 50."
         }
     },
 
     "admin_website_statistics": {
-        "header"                        : "YouTube Generated Statistics",
-        "checked_users"                 : "Total Checked Accounts",
-        "updated_logs"                  : "Total Generated Logs"
+        "header"                        : "Estadísticas generadas por YouTube",
+        "checked_users"                 : "Cuentas totales verificadas",
+        "updated_logs"                  : "Total de registros generados"
     },
 
     "admin_users_management": {
-        "title"							: "YouTube Users Management",
-        "menu"							: "YT Users",
+        "title"							: "Administración de usuarios de YouTube",
+        "menu"							: "Usuarios de YouTube",
 
         "table": {
-            "youtube_id"				: "Channel Id",
-            "title"					    : "Title",
-            "last_check_date"			: "Last Check",
-            "actions"					: "Actions"
+            "youtube_id"				: "Canal ID",
+            "title"					    : "Título",
+            "last_check_date"			: "Última revisión",
+            "actions"					: "Acciones"
         },
 
         "tooltip": {
-            "demo"						: "Demo User",
-            "out"						: "View YT Channel"
+            "demo"						: "Usuario de demostración",
+            "out"						: "Ver canal YT"
         },
 
         "info_message": {
-            "confirm_delete"			: "By deleting this YT Channel all the reports related to this user and all the logs will be deleted."
+            "confirm_delete"			: "Al eliminar este canal de YouTube, todos los informes relacionados con este usuario y todos los registros se eliminarán."
         },
 
         "display": {
-            "search_placeholder"		: "Search by channel id or username or name.."
+            "search_placeholder"		: "Buscar por ID de canal o nombre de usuario o nombre.."
         }
     },
 
     "email_report": {
-        "title_plus"					: "%s has gained %s subscribers",
-        "title_minus"					: "%s has lost %s subscribers",
-
+        "title_plus"					: "%s ha ganado %s suscriptores",
+        "title_minus"					: "%s ha perdido %s suscriptores",
         "content": {
-            "header"					: "Report for %s's youtube channel",
-            "text_one"					: "Here is an overall view of what happened to the account from <strong>%s</strong> to <strong>%s</strong>.",
-            "previous"					: "Previous",
-            "latest"					: "Latest",
-            "subscribers"				: "Subscribers",
+            "header"					: "Informe para el canal de youtube de %s's",
+            "text_one"					: "Aquí hay una vista general de lo que sucedió con la cuenta de <strong>%s</strong> a <strong>%s</strong>.",
+            "previous"					: "Anterior",
+            "latest"					: "Último",
+            "subscribers"				: "Suscriptores",
             "views"		                : "Views",
             "videos"                    : "Videos",
-            "button"					: "View Full Report"
+            "button"					: "Ver informe completo"
         }
     }
 }
