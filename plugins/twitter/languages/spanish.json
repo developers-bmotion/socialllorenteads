@@ -2,134 +2,134 @@
     "global": {
         "name"                          : "Twitter",
         "icon"                          : "fab fa-fw fa-twitter",
-        "search_placeholder"            : "Enter twitter username.."
+        "search_placeholder"            : "Ingrese el nombre de usuario de twitter.."
     },
 
     "report": {
-        "title"							: "%s Twitter Report",
+        "title"							: "%s Informe de Twitter",
 
         "display": {
-            "username"                  : "User",
-            "followers"                 : "Followers",
-            "following"                 : "Following",
+            "username"                  : "Usuario",
+            "followers"                 : "Seguidores",
+            "following"                 : "Siguiendo",
             "tweets"                    : "Tweets",
             "likes"                     : "Likes",
-            "followers_per_day"         : "%s Followers /day",
-            "following_per_day"         : "%s Following /day",
-            "tweets_per_day"            : "%s Tweets /day",
-            "likes_per_day"             : "%s Tweets /day",
-            "followers_chart"           : "Followers Evolution Chart",
+            "followers_per_day"         : "%s Seguidores / día",
+            "following_per_day"         : "%s Siguiendo / día",
+            "tweets_per_day"            : "%s Tweets / día",
+            "likes_per_day"             : "%s Tweets / día",
+            "followers_chart"           : "Gráfico de evolución de seguidores",
             "tweets_chart"              : "Tweets Evolution Chart",
-            "average_followers"         : "Average Followers",
-            "average_following"         : "Average Following",
-            "average_tweets"            : "Average Tweets",
-            "average_likes"             : "Average Likes",
+            "average_followers"         : "Seguidores promedio",
+            "average_following"         : "Seguimiento promedio",
+            "average_tweets"            : "Tweets promedio",
+            "average_likes"             : "Me gusta promedio",
             "extra"                     : "Extra",
-            "location"                  : "Location",
-            "created_date"              : "Created Date",
+            "location"                  : "Ubicación",
+            "created_date"              : "Fecha de creación",
 
-            "last_tweets"               : "Last Tweets",
-            "last_tweets_help"          : "Last tweets from this account.",
-            "tweet_created_date"        : "Tweet Date",
+            "last_tweets"               : "Últimos Tweets",
+            "last_tweets_help"          : "Últimos tweets de esta cuenta.",
+            "tweet_created_date"        : "Fecha de Tweet",
             "tweet_text"                : "Tweet",
             "tweet_retweets"            : "Retweets",
             "tweet_likes"               : "Likes",
-            "tweet_source"              : "Source",
-            "tweet_language"            : "Language",
-            "tweet_tweets_chart"        : "Tweets Stats Chart",
+            "tweet_source"              : "Fuente",
+            "tweet_language"            : "Idioma",
+            "tweet_tweets_chart"        : "Tabla de estadísticas de Tweets",
 
-            "verified"                  : "Twitter Verified Account"
+            "verified"                  : "Cuenta verificada de Twitter"
         },
 
         "error_message": {
-            "low_followers"             : "We are sorry but we only allow accounts with %s or more total followers..",
-            "not_found"                 : "This Twitter Account was not found."
+            "low_followers"             : "Lo sentimos, pero solo permitimos cuentas con %s o más seguidores totales..",
+            "not_found"                 : "No se encontró esta cuenta de Twitter."
         }
     },
 
     "compare": {
-        "title_dynamic"					: "Compare %s with %s Twitter Accounts",
-        "header"						: "Compare Twitter Accounts",
-        "header_help"					: "Here you can input two Twitter Accounts that you have access to and you can compare and analyze their statistics side by side.",
+        "title_dynamic"					: "Comparar %s con %s cuentas de Twitter",
+        "header"						: "Comparar cuentas de Twitter",
+        "header_help"					: "Aquí puede ingresar dos cuentas de Twitter a las que tiene acceso y puede comparar y analizar sus estadísticas una al lado de la otra.",
 
         "display": {
             "compare_text"				: "vs",
-            "search_input_placeholder"	: "Username",
-            "statistics"				: "Statistics Comparison",
-            "view_report"				: "View Report",
-            "followers"                 : "Followers",
-            "following"                 : "Following",
+            "search_input_placeholder"	: "Nombre de usuario",
+            "statistics"				: "Comparación de estadísticas",
+            "view_report"				: "Vista del informe",
+            "followers"                 : "Seguidores",
+            "following"                 : "Siguiendo",
             "tweets"                    : "Tweets",
             "likes"                     : "Likes",
-            "followers_chart"           : "Followers Evolution Chart",
-            "tweets_chart"			    : "Tweets Evolution Chart"
+            "followers_chart"           : "Gráfico de evolución de seguidores",
+            "tweets_chart"			    : "Tabla de evolución de Tweets"
         }
 
     },
 
     "admin_website_settings": {
         "input": {
-            "twitter_consumer_key"              : "Consumer Key",
-            "twitter_consumer_key_help"         : "Please refer to the <a href=\"https://altumcode.link/phpanalyzer-docs\">Documentation</a> to find out where to get the key.",
-            "twitter_secret_key"                : "Secret Key",
+            "twitter_consumer_key"              : "Clave del consumidor",
+            "twitter_consumer_key_help"         : "Consulte la <a href=\"https://altumcode.link/phpanalyzer-docs\"> Documentación </a> para averiguar dónde obtener la clave.",
+            "twitter_secret_key"                : "Llave secreta",
             "twitter_oauth_token"               : "Oauth Token",
             "twitter_oauth_token_secret"        : "Oauth Token Secret",
 
-            "twitter_check_interval"			: "Check Interval ( Hours )",
-            "twitter_check_interval_help"		: "An account should be verified again after X hours",
-            "twitter_minimum_followers"		    : "Minimum Followers",
-            "twitter_minimum_followers_help"	: "If the account does not meet the minimum followers, it won't be added to the database.",
-            "twitter_check_tweets"		        : "Check Tweets (0-100)",
-            "twitter_check_tweets_help"	        : "Check the last X amount of last posted tweets an account. 0 is disabled and the maximum value is 100."
+            "twitter_check_interval"			: "Intervalo de verificación (horas)",
+            "twitter_check_interval_help"		: "Una cuenta debe verificarse nuevamente después de X horas",
+            "twitter_minimum_followers"		    : "Seguidores mínimos",
+            "twitter_minimum_followers_help"	: "Si la cuenta no cumple con los seguidores mínimos, no se agregará a la base de datos.",
+            "twitter_check_tweets"		        : "Verificar Tweets (0-100)",
+            "twitter_check_tweets_help"	        : "Verifique la última cantidad X de los últimos tweets publicados en una cuenta. 0 está deshabilitado y el valor máximo es 100."
         }
     },
 
     "admin_website_statistics": {
-        "header"                        : "Twitter Generated Statistics",
-        "checked_users"                 : "Total Checked Accounts",
-        "updated_logs"                  : "Total Generated Logs"
+        "header"                        : "Estadísticas generadas en Twitter",
+        "checked_users"                 : "Cuentas totales verificadas",
+        "updated_logs"                  : "Total de registros generados"
     },
 
     "admin_users_management": {
-        "title"							: "Twitter Users Management",
-        "menu"							: "Twitter Users",
+        "title"							: "Gestión de usuarios de Twitter",
+        "menu"							: "Usuarios de Twitter",
 
         "table": {
-            "username"				    : "Username",
-            "full_name"				    : "Full Name",
-            "last_check_date"			: "Last Check",
-            "actions"					: "Actions"
+            "username"				    : "Nombre de usuario",
+            "full_name"				    : "Nombre completo",
+            "last_check_date"			: "Última revisión",
+            "actions"					: "Acciones"
         },
 
         "tooltip": {
-            "private"					: "Private Twitter",
-            "verified"					: "Verified Twitter",
-            "demo"						: "Demo User",
-            "out"						: "View Twitter Account"
+            "private"					: "Twitter privado",
+            "verified"					: "Twitter verificado",
+            "demo"						: "Usuario de demostración",
+            "out"						: "Ver cuenta de Twitter"
         },
 
         "info_message": {
-            "confirm_delete"			: "By deleting this Twitter Account all the reports related to this user and all the logs will be deleted."
+            "confirm_delete"			: "Al eliminar esta cuenta de Twitter, todos los informes relacionados con este usuario y todos los registros se eliminarán."
         },
 
         "display": {
-            "search_placeholder"		: "Search by username or name.."
+            "search_placeholder"		: "Buscar por nombre de usuario o nombre.."
         }
     },
 
     "email_report": {
-        "title_plus"					: "%s has gained %s followers",
-        "title_minus"					: "%s has lost %s followers",
+        "title_plus"					: "%s ha ganado %s seguidores",
+        "title_minus"					: "%s ha perdido %s seguidores",
 
         "content": {
-            "header"					: "Report for %s's Twitter Account",
-            "text_one"					: "Here is an overall view of what happened to the account from <strong>%s</strong> to <strong>%s</strong>.",
-            "previous"					: "Previous",
-            "latest"					: "Latest",
-            "followers"				    : "Followers",
-            "following"		            : "Following",
+            "header"					: "Informe para la cuenta de Twitter de %s's",
+            "text_one"					: "Aquí hay una vista general de lo que sucedió con la cuenta de <strong>%s</strong> a <strong>%s</strong>.",
+            "previous"					: "Anterior",
+            "latest"					: "Último",
+            "followers"				    : "Seguidores",
+            "following"		            : "Siguiendo",
             "tweets"                    : "Tweets",
-            "button"					: "View Full Report"
+            "button"					: "Ver informe completo"
         }
     }
 }
